@@ -327,11 +327,7 @@ class MegaMenuTwo extends Component {
                                     </Link>
                                   </li>
 
-                                  <li>
-                                    <Link href="/category-right-sidebar-with-block">
-                                      <a>shotgun</a>
-                                    </Link>
-                                  </li>
+                                 
 
                                 
                                 </ul>

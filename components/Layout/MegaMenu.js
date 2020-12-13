@@ -325,12 +325,12 @@ class MegaMenuTwo extends Component {
                                       <a>Rifle</a>
                                     </Link>
                                   </li>
-
+{/** 
                                   <li>
                                     <Link href="/shotgun-ammunition">
                                       <a>shotgun</a>
                                     </Link>
-                                  </li>
+                                  </li>*/}
 
                                 
                                 </ul>

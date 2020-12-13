@@ -14,6 +14,16 @@
     "static/development/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/index.js"
+    ],
+    "/404": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/404.js"
+    ],
     "/_app": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
@@ -24,20 +34,25 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/ars": [
+    "/handgun-ammunition": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/ars.js"
+      "static/chunks/pages/handgun-ammunition.js"
     ],
-    "/handgun-sight": [
+    "/rifle-ammunition": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/handgun-sight.js"
+      "static/chunks/pages/rifle-ammunition.js"
     ],
-    "/product/[id]": [
+    "/rim": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/product/[id].js"
+      "static/chunks/pages/rim.js"
+    ],
+    "/self-defense-shotguns": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/self-defense-shotguns.js"
     ]
   },
   "ampFirstPages": []
