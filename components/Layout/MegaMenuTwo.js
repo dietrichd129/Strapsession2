@@ -210,129 +210,88 @@ class MegaMenuTwo extends Component {
                           <div className="container">
                             <div className="row">
                               <div className="col">
-                                <h6 className="submenu-title">Scopes</h6>
+                              <h6 className="submenu-title">Scopes</h6>
 
-                                <ul className="megamenu-submenu">
-                                  <li>
-                                    <Link href="/rifle-scopes">
-                                      <a>Rifle Scopes</a>
-                                    </Link>
-                                  </li>
+<ul className="megamenu-submenu">
+  <li>
+    <Link href="/rifle-scope">
+      <a>Rifle Scopes</a>
+    </Link>
+  </li>
 
-                                  <li>
-                                    <Link href="/red-dot-optics">
-                                      <a>Red Dot Optics</a>
-                                    </Link>
-                                  </li>
+  <li>
+    <Link href="/red-dot-scope">
+      <a>Red Dot Optics</a>
+    </Link>
+  </li>
 
-                                  <li>
-                                    <Link href="/night-vision-thermal">
-                                      <a>Night Vision / Thermal</a>
-                                    </Link>
-                                  </li>
+  <li>
+    <Link href="/night-vision">
+      <a>Night Vision / Thermal</a>
+    </Link>
+  </li>
 
-                                  <li>
-                                    <Link href="/binoculars">
-                                      <a> Binoculars</a>
-                                    </Link>
-                                  </li>
+  <li>
+    <Link href="/binoculars">
+      <a> Binoculars</a>
+    </Link>
+  </li>
 
-                                  <li>
-                                    <Link href="/range-finders">
-                                      <a>Range Finders</a>
-                                    </Link>
-                                  </li>
+  <li>
+    <Link href="/range-finder">
+      <a>Range Finders</a>
+    </Link>
+  </li>
 
-                                  
-                                 
-                                </ul>
-                              </div>
+  
+ 
+</ul>
+</div>
 
-                              <div className="col">
-                                <h6 className="submenu-title"> SIGHTS</h6>
+<div className="col">
+<h6 className="submenu-title"> SIGHTS</h6>
 
-                                <ul className="megamenu-submenu">
-                                  <li>
-                                    <Link href="/handgun-sights">
-                                      <a>Handgun Sights</a>
-                                    </Link>
-                                  </li>
+<ul className="megamenu-submenu">
+  <li>
+    <Link href="/handgun-sight">
+      <a>Handgun Sights</a>
+    </Link>
+  </li>
 
-                                  
-                                
-                                </ul>
-                              </div>
+  
 
-                              <div className="col">
-                                <h6 className="submenu-title">Accessories</h6>
+</ul>
+</div>
 
-                                <ul className="megamenu-submenu">
-                                  <li>
-                                    <Link href="/flash">
-                                      <a>  FLASH 
-   </a>
-                                    </Link>
-                                  </li>
+<div className="col">
+<h6 className="submenu-title">Accessories</h6>
 
-                                  <li>
-                                    <Link href="/lights-weapon">
-                                      <a> LIGHTS WEAPON 
-   </a>
-                                    </Link>
-                                  </li>
+<ul className="megamenu-submenu">
+  <li>
+    <Link href="/flash">
+      <a>  FLASH 
+</a>
+    </Link>
+  </li>
 
-                                  <li>
-                                    <Link href="/lights-laser">
-                                      <a> LIGHTS LASER 
-    </a>
-                                    </Link>
-                                  </li>
+  <li>
+    <Link href="/weapon-lights">
+      <a> LIGHTS WEAPON 
+</a>
+    </Link>
+  </li>
 
-                                  <li>
-                                    <Link href="/sights-batteries-bulbs">
-                                      <a>SIGHTS BATTERIES & BULBS</a>
-                                    </Link>
-                                  </li>
+  
 
-                                  
-                                </ul>
-                              </div>
+  
+</ul>
+</div>
 
-                              <div className="col">
-                                <ul className="megamenu-submenu">
-                                  <li>
-                                    <div className="aside-trending-products">
-                                      <img
-                                        src={require("../../images/category-products-img2.jpg")}
-                                        alt="image"
-                                      />
 
-                                      <div className="category">
-                                        <h4>Top Trending</h4>
-                                      </div>
-
-                                      <a href="#"></a>
-                                    </div>
-
-                                    <div className="aside-trending-products">
-                                      <img
-                                        src={require("../../images/category-products-img3.jpg")}
-                                        alt="image"
-                                      />
-
-                                      <div className="category">
-                                        <h4>Popular Products</h4>
-                                      </div>
-
-                                      <a href="#"></a>
-                                    </div>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
+</div>
+</div>
+</li>
+</ul>
                     </li>
 
                     <li className="nav-item megamenu">

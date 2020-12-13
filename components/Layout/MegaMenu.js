@@ -214,31 +214,31 @@ class MegaMenuTwo extends Component {
 
                                 <ul className="megamenu-submenu">
                                   <li>
-                                    <Link href="/category-without-sidebar-fullwidth">
+                                    <Link href="/rifle-scope">
                                       <a>Rifle Scopes</a>
                                     </Link>
                                   </li>
 
                                   <li>
-                                    <Link href="/category-sidebar-fullwidth">
+                                    <Link href="/red-dot-scope">
                                       <a>Red Dot Optics</a>
                                     </Link>
                                   </li>
 
                                   <li>
-                                    <Link href="/category-left-sidebar">
+                                    <Link href="/night-vision">
                                       <a>Night Vision / Thermal</a>
                                     </Link>
                                   </li>
 
                                   <li>
-                                    <Link href="/category-left-sidebar-with-block">
+                                    <Link href="/binoculars">
                                       <a> Binoculars</a>
                                     </Link>
                                   </li>
 
                                   <li>
-                                    <Link href="/category-right-sidebar">
+                                    <Link href="/range-finder">
                                       <a>Range Finders</a>
                                     </Link>
                                   </li>
@@ -253,7 +253,7 @@ class MegaMenuTwo extends Component {
 
                                 <ul className="megamenu-submenu">
                                   <li>
-                                    <Link href="/category-without-sidebar-fullwidth">
+                                    <Link href="/handgun-sight">
                                       <a>Handgun Sights</a>
                                     </Link>
                                   </li>
@@ -268,31 +268,20 @@ class MegaMenuTwo extends Component {
 
                                 <ul className="megamenu-submenu">
                                   <li>
-                                    <Link href="/category-left-sidebar">
+                                    <Link href="/flash">
                                       <a>  FLASH 
    </a>
                                     </Link>
                                   </li>
 
                                   <li>
-                                    <Link href="/category-right-sidebar">
+                                    <Link href="/weapon-lights">
                                       <a> LIGHTS WEAPON 
    </a>
                                     </Link>
                                   </li>
 
-                                  <li>
-                                    <Link href="/category-right-sidebar-with-block">
-                                      <a> LIGHTS LASER 
-    </a>
-                                    </Link>
-                                  </li>
-
-                                  <li>
-                                    <Link href="/category-without-sidebar">
-                                      <a>SIGHTS BATTERIES & BULBS</a>
-                                    </Link>
-                                  </li>
+                                  
 
                                   
                                 </ul>

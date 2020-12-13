@@ -31,7 +31,14 @@ const Product = () => {
     || useSelector((state) => state.rim.find(item => item.id === parseInt(id)))
     || useSelector((state) => state.handAmmuni.find(item => item.id === parseInt(id)))
     || useSelector((state) => state.rifleammuni.find(item => item.id === parseInt(id)))
-    
+    || useSelector((state) => state.riflescope.find(item => item.id === parseInt(id)))
+    || useSelector((state) => state.redDotscope.find(item => item.id === parseInt(id)))
+    || useSelector((state) => state.nightvision.find(item => item.id === parseInt(id)))
+    || useSelector((state) => state.binoculars.find(item => item.id === parseInt(id)))
+    || useSelector((state) => state.rangefinder.find(item => item.id === parseInt(id)))
+    || useSelector((state) => state.handgunsight.find(item => item.id === parseInt(id)))
+    || useSelector((state) => state.flash.find(item => item.id === parseInt(id)))
+    || useSelector((state) => state.weaponlights.find(item => item.id === parseInt(id)))
 
     const products = useSelector((state) => state.products)
     const addedItemsToCompare = useSelector((state) => state.addedItemsToCompare)

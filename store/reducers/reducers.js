@@ -23,7 +23,15 @@ import {
     rim,
     handAmmuni,
     rifleammuni,
-    topSellers
+    topSellers,
+    riflescope,
+redDotscope,
+nightvision,
+binoculars,
+rangefinder,
+handgunsight,
+flash,
+weaponlights
 } from '../json-data/products';
 
 let store
@@ -58,6 +66,14 @@ const initialState = {
     handAmmuni:handAmmuni,
     rifleammuni: rifleammuni,
     topSellers: topSellers,
+    riflescope: riflescope,
+redDotscope: redDotscope,
+nightvision: nightvision,
+binoculars: binoculars,
+rangefinder: rangefinder,
+handgunsight: handgunsight,
+flash: flash,
+weaponlights: weaponlights,
     addedItems:[],
     addedItemsToCompare:[],
     total: 0,
@@ -84,6 +100,14 @@ export const reducers = (state = initialState, action) => {
         || state.handAmmuni.find(item => item.id === action.id) 
         || state.rifleammuni.find(item => item.id === action.id)
         || state.topSellers.find(item => item.id === action.id)
+        || state.riflescope.find(item => item.id === action.id)
+        || state.redDotscope.find(item => item.id === action.id)
+        || state.nightvision.find(item => item.id === action.id)
+        || state.binoculars.find(item => item.id === action.id)
+        || state.rangefinder.find(item => item.id === action.id)
+        || state.handgunsight.find(item => item.id === action.id)
+        || state.flash.find(item => item.id === action.id)
+        || state.weaponlights.find(item => item.id === action.id)
         //check if the action id exists in the addedItems
         let existed_item = state.addedItems.find(item => action.id === item.id)
         if(existed_item){
@@ -123,7 +147,15 @@ export const reducers = (state = initialState, action) => {
         || state.rim.find(item => item.id === action.id)
         || state.handAmmuni.find(item => item.id === action.id) 
         || state.rifleammuni.find(item => item.id === action.id)
-        || state.topSellers.find(item => item.id === action.id)
+        || state.topSellers.find(item => item.id === action.id)  
+        || state.riflescope.find(item => item.id === action.id)
+        || state.redDotscope.find(item => item.id === action.id)
+        || state.nightvision.find(item => item.id === action.id)
+        || state.binoculars.find(item => item.id === action.id)
+        || state.rangefinder.find(item => item.id === action.id)
+        || state.handgunsight.find(item => item.id === action.id)
+        || state.flash.find(item => item.id === action.id)
+        || state.weaponlights.find(item => item.id === action.id)
 
         
         addedItemToCompare.quantity = 1;
@@ -152,6 +184,14 @@ export const reducers = (state = initialState, action) => {
         || state.handAmmuni.find(item => item.id === action.id) 
         || state.rifleammuni.find(item => item.id === action.id)
         || state.topSellers.find(item => item.id === action.id)
+        || state.riflescope.find(item => item.id === action.id)
+        || state.redDotscope.find(item => item.id === action.id)
+        || state.nightvision.find(item => item.id === action.id)
+        || state.binoculars.find(item => item.id === action.id)
+        || state.rangefinder.find(item => item.id === action.id)
+        || state.handgunsight.find(item => item.id === action.id)
+        || state.flash.find(item => item.id === action.id)
+        || state.weaponlights.find(item => item.id === action.id)
         //check if the action id exists in the addedItems
         let existed_item = state.addedItems.find(item=> action.id === item.id)
         if(existed_item)
@@ -226,6 +266,14 @@ export const reducers = (state = initialState, action) => {
         || state.handAmmuni.find(item => item.id === action.id) 
         || state.rifleammuni.find(item => item.id === action.id)
         || state.topSellers.find(item => item.id === action.id)
+        || state.riflescope.find(item => item.id === action.id)
+        || state.redDotscope.find(item => item.id === action.id)
+        || state.nightvision.find(item => item.id === action.id)
+        || state.binoculars.find(item => item.id === action.id)
+        || state.rangefinder.find(item => item.id === action.id)
+        || state.handgunsight.find(item => item.id === action.id)
+        || state.flash.find(item => item.id === action.id)
+        || state.weaponlights.find(item => item.id === action.id)
         //if the qt == 0 then it should be removed
         if(addedItem.quantity === 1){
             let new_items = state.addedItems.filter(item=>item.id !== action.id)
