@@ -14,6 +14,7 @@ import dynamic from "next/dynamic";
 import News from "../components/Common/News";
 import TestimonialsTwo from "../components/Common/TestimonialsTwo";
 import SpecialOffer from "../components/shop-style-nine/SpecialOffer";
+import Head from 'next/head'
 
 import Facility from "../components/Common/Facility";
 export async function getStaticProps() {
@@ -52,6 +53,10 @@ const Index = ({ posts }) => {
   const addedItemsToCompare = useSelector((state) => state.addedItemsToCompare);
   return (
     <React.Fragment>
+      <Head>
+        <title>STRAPSESSIONS </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <NavbarTwo />
       <BannerSlider />
 

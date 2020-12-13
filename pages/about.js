@@ -4,11 +4,16 @@ import Footer from '../components/Layout/Footer';
 import Facility from '../components/Common/Facility';
 import Breadcrumb from '../components/Common/Breadcrumb';
 import Testimonials from '../components/Common/Testimonials';
+import Head from 'next/head'
 
 class Index extends Component {
     render() {
         return (
             <React.Fragment>
+                  <Head>
+        <title>About Strapsessions</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
                 <Navbar />
                 <Breadcrumb title="About Us" />
                 <section className="about-area ptb-60">

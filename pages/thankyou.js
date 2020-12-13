@@ -6,10 +6,15 @@ import Subscribe from '../components/Common/Subscribe';
 import Partner from '../components/Common/Partner';
 import InstagramPhoto from '../components/Common/InstagramPhoto';
 import Footer from '../components/Layout/Footer';
+import Head from 'next/head'
 
 const ThankYou = () => {
     return (
         <React.Fragment>
+            <Head>
+        <title>STRAPSESSIONS </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
             <Navbar />
 
             <div className="thank-you-area">

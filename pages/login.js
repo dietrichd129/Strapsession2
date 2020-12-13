@@ -4,10 +4,15 @@ import Navbar from '../components/Layout/Navbar';
 import Footer from '../components/Layout/Footer';
 import Facility from '../components/Common/Facility';
 import Breadcrumb from '../components/Common/Breadcrumb';
+import Head from 'next/head'
 
 const Login = () => {
     return (
         <React.Fragment>
+            <Head>
+        <title>STRAPSESSIONS </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
             <Navbar />
             <Breadcrumb title="Login" />
             <section className="login-area ptb-60">

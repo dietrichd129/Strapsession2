@@ -3,12 +3,17 @@ import Navbar from '../components/Layout/Navbar';
 import Footer from '../components/Layout/Footer';
 import Facility from '../components/Common/Facility';
 import Breadcrumb from '../components/Common/Breadcrumb';
+import Head from 'next/head'
 
 class Index extends Component {
     render() {
         return (
             <React.Fragment>
                 <Navbar />
+                <Head>
+        <title>STRAPSESSIONS </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
                 <Breadcrumb title="Customer Service" />
                 <section className="customer-service-area ptb-60">
                     <div className="container">

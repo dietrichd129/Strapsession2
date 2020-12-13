@@ -1,6 +1,7 @@
 import Footer from "../components/Layout/Footer"
 import NavbarTwo from "../components/Layout/NavbarTwo"
 
+
 const Custom404 = () => {
     return (
       <div className="body404">

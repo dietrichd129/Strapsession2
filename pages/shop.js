@@ -8,6 +8,7 @@ import LeftSidebar from '../components/Sidebar/LeftSidebar';
 import ProductsFilterOptions from '../components/Common/ProductsFilterOptions';
 import ProductsCard from '../components/products/ProductsCard';
 import OfferArea from '../components/shop-style-one/OfferArea';
+import Head from 'next/head'
 
 const hookClass = (props) => {
     const products = useSelector((state) => state.products)
@@ -32,6 +33,10 @@ class Index extends Component {
         let { products, CompareProducts } = this.props;
         return (
             <React.Fragment>
+                <Head>
+        <title>STRAPSESSIONS </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
                 <Navbar />
                 <Breadcrumb title="SHOP" />
 

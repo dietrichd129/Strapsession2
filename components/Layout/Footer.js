@@ -87,6 +87,11 @@ class Footer extends Component {
                       support@strapsessions.com
                     </a>
                   </li>
+                  <li>
+                    <i className="fa fa-map-marker" aria-hidden="true"></i>
+                    Address:{" "}
+                   San Diego CA
+                  </li>
                 </ul>
               </div>
             </div>

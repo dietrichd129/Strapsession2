@@ -9,6 +9,7 @@ import ProductContent from '../../components/product-details/ProductContent';
 import DetailsTab from '../../components/product-details/DetailsTab';
 import RelatedProducts from '../../components/product-details/RelatedProducts';
 import Facility from '../../components/shop-style-one/Facility';
+import Head from 'next/head'
 
 const Product = () => {
     const router = useRouter()
@@ -36,6 +37,10 @@ const Product = () => {
     const addedItemsToCompare = useSelector((state) => state.addedItemsToCompare)
     return (
         <React.Fragment>
+            <Head>
+        <title>{product.title}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
             <Navbar />
             <Breadcrumb title={product.title} />
 

@@ -39,6 +39,7 @@
         "react-accessible-accordion": "^3.0.1",
         "react-coinbase-commerce": "^1.4.4",
         "react-dom": "^16.13.1",
+        "react-ga": "^3.3.0",
         "react-image-lightbox": "^5.1.1",
         "react-markdown": "^5.0.2",
         "react-owl-carousel3": "^2.2.5",

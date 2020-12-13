@@ -5,6 +5,7 @@ import Footer from '../components/Layout/Footer';
 import Breadcrumb from '../components/Common/Breadcrumb';
 import ProductsFilterOptions from '../components/category-without-sidebar/ProductsFilterOptions';
 import ProductsCard from '../components/products/ProductsCardTwo';
+import Head from 'next/head'
 
 const hookClass = (props) => {
     const products = useSelector((state) => state.ars)
@@ -30,7 +31,10 @@ class Index extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                
+                <Head>
+        <title>STRAPSESSIONS </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
                 
                 <section className="products-collections-area ptb-60">
                     <div className="container">

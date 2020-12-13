@@ -4,6 +4,7 @@ import GoTop from '../Shared/GoTop';
 import { ToastContainer, Slide } from 'react-toastify';
 import ReactTooltip from 'react-tooltip'
 import Twarkto from '../Twarkto';
+import Analytics from '../googleanalytics';
 
 const Layout = ({ children }) => {
     return(
@@ -17,6 +18,7 @@ const Layout = ({ children }) => {
                 <link rel="canonical" href="https://strapsessions.com"></link>
                 <meta property="og:image" content="https://pixabay.com/get/54e4d747485bae14f1dc8460da29317e1038dfe4565975_640.jpg" />
             </Head>
+            <Analytics/>
             { children }
             <Twarkto/>
             <ToastContainer transition={Slide} />

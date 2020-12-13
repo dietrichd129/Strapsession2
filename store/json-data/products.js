@@ -165,7 +165,415 @@ export const ars= [
     quickView: require("../../images/guns/rifles/ars/13060.jpg"),
     
   },
-  
+  {
+    id: 1170,
+    title:
+      "RUGER AR-556 MPR 450 BUSHMASTER 18.63'' BARREL 5+1 08522",
+    price: 911.49,
+    description:
+      "Ruger AR-556 MPR Semi-Auto Rifle in 450 Bushmaster",
+    image: require("../../images/guns/rifles/ars/1.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/1.jpg"),
+    quickView: require("../../images/guns/rifles/ars/1.jpg"),
+    
+  },
+  {
+    id: 1171,
+    title:
+      "IWI ZION-15 5.56NATO 16'' BARREL 30+1 Z15TAC16",
+    price: 999.00,
+    description:
+      "The IWI Zion-15 5.56NATO is the first M4 Variant rifle from this brand, this 16″ Tactical Rifle includes a 15″ Free Float Handguard, a B5 Systems Stock, and Grip, and includes one (1) 30 round Magpul PMAG. Proudly manufactured and assembled at the IWI US facility in Middletown, Pennsylvania.",
+    image: require("../../images/guns/rifles/ars/2.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/2.jpg"),
+    quickView: require("../../images/guns/rifles/ars/2.jpg"),
+    
+  },
+  {
+    id: 1172,
+    title:
+      "ATI MILSPORT 5.56NATO 16'' BARREL 30+1 G15MS556MLP3P",
+    price: 469.00,
+    description:
+      "THIS ATI MILSPORT AR15 5.56NATO RIFLE FEATURES A 16'' PHOSPATE BARREL, HAS AN ALPHA STOCK, AND A NANO COMPOSITE PARTS KIT.",
+    image: require("../../images/guns/rifles/ars/3.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/3.jpg"),
+    quickView: require("../../images/guns/rifles/ars/3.jpg"),
+    
+  },
+  {
+    id: 1173,
+    title:
+      "RUGER AR-556 223 REM/556 NATO 16.1'' BARREL 10+1 8537",
+    price: 489.00,
+    description:
+      "Ruger's AR-556 semi-automatic rifle is made from forged aerospace-grade 7075-T6 aluminum. The hard coat anodized, flattop upper receiver includes a forward assist, dust cover and brass deflector, while the handguards are made from heat-resistant glass-filled nylon. It has a carbine-length, milled gas block with multiple attachment points for a QD socket, bayonet lug, and sling. Serrations on the angled face of the gas block provides a low-glare surface. It also has a bolt machined from 9310 alloy steel, single-stage trigger, chrome-plated bolt carrier with a matte black oxide finish on the exterior, and patent-pending barrel nut and Delta ring for one person handguard removal and installation.",
+    image: require("../../images/guns/rifles/ars/4.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/4.jpg"),
+    quickView: require("../../images/guns/rifles/ars/4.jpg"),
+    
+  },
+  {
+    id: 1174,
+    title:
+      "RUGER AR-556 223 REM/556 NATO 16.1'' BARREL 10+1 8536",
+    price: 549.99,
+    description:
+      "Ruger's AR-556 semi-automatic rifle is made from forged aerospace-grade 7075-T6 aluminum. The hard coat anodized, flattop upper receiver includes a forward assist, dust cover and brass deflector, while the handguards are made from heat-resistant glass-filled nylon. It has a carbine-length, milled gas block with multiple attachment points for a QD socket, bayonet lug, and sling. Serrations on the angled face of the gas block provides a low-glare surface. It also has a bolt machined from 9310 alloy steel, single-stage trigger, chrome-plated bolt carrier with a matte black oxide finish on the exterior, and patent-pending barrel nut and Delta ring for one person handguard removal and installation. 10 round magazine makes it compliant for more states with restrictions.",
+    image: require("../../images/guns/rifles/ars/5.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/5.jpg"),
+    quickView: require("../../images/guns/rifles/ars/5.jpg"),
+    
+  },
+  {
+    id: 1175,
+    title:
+      "RUGER AR-556 OPTIC READY 223/5.56NATO 16.1'' 30+1 8525      ",
+    price: 489.00,
+    description:
+      "Ruger's AR-556 semi-automatic rifle is made from forged aerospace-grade 7075-T6 aluminum. The hard coat anodized, flattop upper receiver includes a forward assist, dust cover and brass deflector, while the handguards are made from heat-resistant glass-filled nylon. It has a carbine-length, milled gas block with multiple attachment points for a QD socket, bayonet lug, and sling. Serrations on the angled face of the gas block provides a low-glare surface. It also has a bolt machined from 9310 alloy steel, single-stage trigger, chrome-plated bolt carrier with a matte black oxide finish on the exterior, and patent-pending barrel nut and Delta ring for one person handguard removal and installation.",
+    image: require("../../images/guns/rifles/ars/4.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/4.jpg"),
+    quickView: require("../../images/guns/rifles/ars/4.jpg"),
+    
+  },
+  {
+    id: 1176,
+    title:
+      "SIG SAUER 716I TREAD 308WIN 16'' 20+1 716I-16B-TRD      ",
+    price: 1299,
+    description:
+      "The Sig Sauer 716I TREAD combined the reliability of SIG's lightweight direct impingement system, paired with the customization of TREAD.",
+    image: require("../../images/guns/rifles/ars/6.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/6.jpg"),
+    quickView: require("../../images/guns/rifles/ars/6.jpg"),
+    
+  },
+  {
+    id: 1177,
+    title:
+      "RUGER PC CARBINE 9MM 16.12'' BARREL 17+1 19121",
+    price:724.14 ,
+    description:
+      "",
+    image: require("../../images/guns/rifles/ars/7.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/7.jpg"),
+    quickView: require("../../images/guns/rifles/ars/7.jpg"),
+    
+  },
+  {
+    id: 1178,
+    title:
+      "SMITH & WESSON M&P SPORT II 223 REM/5.56NATO 16'' 30+1 10305",
+    price: 724.14,
+    description:
+      "M&P15 Rifles are the ideal modern sporting rifle.  Built to perform multiple uses under various conditions, M&P15 Rifles are as versatile as they are reliable.   Engineered for a wide variety of recreational, sport shooting and professional applications, M&P15 Rifles are easy to accessorize, but hard to put down. M&P15 Rifles are lightweight and rugged embodying the best combination of function and form.",
+    image: require("../../images/guns/rifles/ars/8.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/8.jpg"),
+    quickView: require("../../images/guns/rifles/ars/8.jpg"),
+    
+  },
+  {
+    id: 1179,
+    title:
+      "SPRINGFIELD SAINT VICTOR 223/5.56NATO 16'' 30+1 STV916556B",
+    price:1000 ,
+    description:
+      "New for 2019, the SAINT Victor series of rifles and pistols from Springfield Armory are designed to give you everything you need on a premium defensive firearm, right out of the box.",
+    image: require("../../images/guns/rifles/ars/109947.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/109947.jpg"),
+    quickView: require("../../images/guns/rifles/ars/109947.jpg"),
+    
+  },
+  {
+    id: 1180,
+    title:
+      "SPRINGFIELD SAINT EDGE 5.56NATO 16'' 30+1 STE916556B",
+    price: 1234,
+    description:
+      "Premier components for quick-handling, improved accuracy, and performance comparable to custom AR builds costing much more.  At just over 6 lbs. the Edge is one of the lightest AR-15s on the market, featuring a patent-pending free float handguard and billet receiver with lightening cuts for effortless operation.  An SA proprietary muzzle brake virtually eliminates recoil, while the Melonite-treated trigger allows for a crisp trigger press with no creep. The Accu-Tite™ tension system ensures a tight fit with no rattle between the upper and lower receivers, paired with a premium M16 BCG that has been shot peened and MPI tested for reliability.  Adjustable pinned gas block, 1:8 twist, flared mag well, metal flip-up sights and Bravo Company furniture.",
+    image: require("../../images/guns/rifles/ars/9.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/9.jpg"),
+    quickView: require("../../images/guns/rifles/ars/9.jpg"),
+    
+  },
+  {
+    id: 1181,
+    title:
+      "SPRINGFIELD SAINT VICTOR 308WIN 16'' 20+1 STV916308B",
+    price: 1234,
+    description:
+      "Premier components for quick-handling, improved accuracy, and performance comparable to custom AR builds costing much more.  At just over 6 lbs. the Edge is one of the lightest AR-15s on the market, featuring a patent-pending free float handguard and billet receiver with lightening cuts for effortless operation.  An SA proprietary muzzle brake virtually eliminates recoil, while the Melonite-treated trigger allows for a crisp trigger press with no creep. The Accu-Tite™ tension system ensures a tight fit with no rattle between the upper and lower receivers, paired with a premium M16 BCG that has been shot peened and MPI tested for reliability.  Adjustable pinned gas block, 1:8 twist, flared mag well, metal flip-up sights and Bravo Company furniture.",
+    image: require("../../images/guns/rifles/ars/9.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/9.jpg"),
+    quickView: require("../../images/guns/rifles/ars/9.jpg"),
+    
+  },
+  {
+    id: 1182,
+    title:
+      "SPRINGFIELD SAINT EDGE 5.56NATO 16'' 30+1 STE916556B",
+    price: 1234,
+    description:
+      "Premier components for quick-handling, improved accuracy, and performance comparable to custom AR builds costing much more.  At just over 6 lbs. the Edge is one of the lightest AR-15s on the market, featuring a patent-pending free float handguard and billet receiver with lightening cuts for effortless operation.  An SA proprietary muzzle brake virtually eliminates recoil, while the Melonite-treated trigger allows for a crisp trigger press with no creep. The Accu-Tite™ tension system ensures a tight fit with no rattle between the upper and lower receivers, paired with a premium M16 BCG that has been shot peened and MPI tested for reliability.  Adjustable pinned gas block, 1:8 twist, flared mag well, metal flip-up sights and Bravo Company furniture.",
+    image: require("../../images/guns/rifles/ars/9.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/9.jpg"),
+    quickView: require("../../images/guns/rifles/ars/9.jpg"),
+    
+  },
+  {
+    id: 1183,
+    title:
+      "LWRC IC SPR 223 REMINGTON/5.56NATO 16.1'' SPIRAL FLUTED BARREL W/ FOLDING SIGHTS 30+1 FLAT DARK EARTH ICR5CK16SPR",
+    price: 2134,
+    description:
+      "CALIBER: 5.56 NATO - BARREL: 16.1 (40.9cm) - WEIGHT: 7.3 lbs (3.31kg) - MUZZLE THREADS: 1/2x28 TPI - RIFLING: 1:7 RH - LWRCI manufactured barrel is precisely torqued in our factory to a consistent torque setting cold hammer forged- Nicorr treated with a 1:7 twist stabilizes a wide range of bullet types - All LWRCI forgings are coined: the material is struck twice in the die for precise dimensional accuracy and a superior surface finish - Magpul",
+    image: require("../../images/guns/rifles/ars/11.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/11.jpg"),
+    quickView: require("../../images/guns/rifles/ars/11.jpg"),
+    
+  },
+  {
+    id: 1184,
+    title:
+      "KEL-TEC SU-16E SPORT UTILITY RIFLE 223 REMINGTON 16'' BARREL 10+1 BLACK SU16EBLK",
+    price: 687,
+    description:
+      "The SU-16 has a conventional long-stroke gas-piston operation and utilizes the proven Johnson/Stoner breech locking system. It is compatible with standard AR-15/M-16 magazines. The reciprocating bolt handle and magazine catch are on the right side while the push bolt safety can be changed to work from either side. Except for barrel and operating components the SU-16 is made entirely of high impact reinforced polymer.",
+    image: require("../../images/guns/rifles/ars/12.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/12.jpg"),
+    quickView: require("../../images/guns/rifles/ars/12.jpg"),
+    
+  },
+  {
+    id: 1185,
+    title:
+      "ARML M153GN18 M15 WYL 3GUN 223 18",
+    price:1486 ,
+    description:
+      "Armalite\'s M153GN is the flagship competition rifle built to win. This rifle is compact, light, and ultra-fast. The low profile handguard, with a railed front sight base, covers a free-floating stainless steel barrel with ArmaLite\'s own tunable muzzle brake. An adjustable gas block also allows the rifle to be individually set for optimal performance. It has an MBA-1 lightweight precision stock (adjustable LOP/comb height), Timney single-stage trigger, and Raptor ambidextrous charging handle. This model has an 18\" barrel and a rifle-length gas system beneath a 15\" free-float 3-gun handguard. It includes a 30-round magazine.",
+    image: require("../../images/guns/rifles/ars/13.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/13.jpg"),
+    quickView: require("../../images/guns/rifles/ars/13.jpg"),
+    
+  },
+  {
+    id: 1186,
+    title:
+      "LWRC IC 223 REMINGTON/5.56NATO 16.1'' BARREL 30+1 BLACK ICA5R5B16",
+    price:2432 ,
+    description:
+      "LWRC's IC-A5 is built for high performance and is constructed using the highest quality materials. It is designed with a low profile, 2-position adjustable gas block allowing the shooter to compensate for running a suppressor with the added benefit of a longer modular rail system. The upper rail section is a special cutback version, which allows the use of the low profile gas block and at the same time keep the full 12'' modular rails available on the sides and bottom of the hand guards. Its dual control fully ambidextrous lower receiver includes bolt catch and release, magazine release and fire control access from both sides",
+    image: require("../../images/guns/rifles/ars/lwica5r5b16-1.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/lwica5r5b16-1.jpg"),
+    quickView: require("../../images/guns/rifles/ars/lwica5r5b16-1.jpg"),
+    
+  },
+  {
+    id: 1187,
+    title:
+      "WINDHAM WEAPONRY R20 GOVT 223 REMINGTON/5.56NATO 20'' BARREL W/ ADJUSTABLE SIGHTS 30+1 BLACK R20GVTA4S7",
+    price: 1011,
+    description:
+      "Action: Semi Auto - Caliber: .223 Rem / 5.56 NATO - Capacity: 30+1 - Finish: Black - Stock: A2 Solid Stock - Sights: Adjustable - Barrel Length: 20 - Overall Length: 39.5 - Weight: 7.7 lbs.",
+    image: require("../../images/guns/rifles/ars/ww-r20gvta4s7.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/ww-r20gvta4s7.jpg"),
+    quickView: require("../../images/guns/rifles/ars/ww-r20gvta4s7.jpg"),
+    
+  },
+  {
+    id: 1188,
+    title:
+      "WEATHERBY VANGUARD 223 REMINGTON 22'' BARREL 10+1 BLACK VLR223RR2O",
+    price: 1097,
+    description:
+      "The fastest flattest shooting rifles on the market. Delivering the unmatched knockdown power of both Weatherby Magnum and standard calibers. Providing the confidence of guaranteed SUB-MOA accuracy. That's why the Vanguard",
+    image: require("../../images/guns/rifles/ars/wby-vlr223rr2o.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/wby-vlr223rr2o.jpg"),
+    quickView: require("../../images/guns/rifles/ars/wby-vlr223rr2o.jpg"),
+    
+  },
+  {
+    id: 1189,
+    title:
+      "NORD NC-15 SBR 223WYLDE 11.5",
+    price: 1021,
+    description:
+      "A rifle designed for and used by professionals at a price within reach of anyone. The NC15 features high quality components including a tack-driving stainless steel barrel Black nitride-finished bolt carrier group and Magpul furniture as well as optional barrel finishes and handguard lengths and a lower receiver that is machined to stand out from the rest of its forged counterparts. For one rifle that is at home anywhere from the match cart to the patrol car nothing fits the bill quite like the NC15. - UPPER: - Caliber: 5.56mm NATO - Barrel: 1-7 11.5 4150 Mil-B-11595E steel w/ M4 feed ramps and carbine length gas port",
+    image: require("../../images/guns/rifles/ars/nord-nc1556115blk.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/nord-nc1556115blk.jpg"),
+    quickView: require("../../images/guns/rifles/ars/nord-nc1556115blk.jpg"),
+    
+  },
+  {
+    id: 1190,
+    title:
+      "DSC DS-4 CARBINE 223REM 16",
+    price: 818,
+    description:
+      "Action: Semi Auto - Caliber: 5.56 NATO / .223 Rem - Capacity: 30 - Finish: Black - Sights: Front Sight Tower - Twist: 1:9 - Barrel Length: 16 DS-4 - Overall Length: 36 - Weight: 6.3 lb.",
+    image: require("../../images/guns/rifles/ars/dsc-r102.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/dsc-r102.jpg"),
+    quickView: require("../../images/guns/rifles/ars/dsc-r102.jpg"),
+    
+  },
+  {
+    id: 1191,
+    title:
+      "DSC STARCAR 223REM 16",
+    price: 805,
+    description:
+      "Action: Semi Auto - Caliber: 5.56 NATO / .223 Rem - Capacity: 30 - Finish: Black - Sights: Front Sight Tower - Twist: 1:9 - Barrel Length: 16 - Overall Length: 36 - Weight: 6.7 lb.",
+    image: require("../../images/guns/rifles/ars/dsc-r100.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/dsc-r100.jpg"),
+    quickView: require("../../images/guns/rifles/ars/dsc-r100.jpg"),
+    
+  },
+  {
+    id: 1192,
+    title:
+      "ARS SLR-106CR 223REM 16 FOLDING BUTTSTOCK 5RD",
+    price: 1064,
+    description:
+      "Action: Semi-Auto - Caliber: 5.56 NATO - Capacity: 5rd - Barrel: 16.25 (1:7) - Sights: Adjustable Iron - Receiver: Stamped Steel Black - Stock: Synthetic Side-Folding Black - Grip: Synthetic Black - Handguard: Synthetic Black - Length: 25/34.5 - Weight: 6.1 lbs. - Front sight block / gas block combination - Chrome lined hammer forged barrel - 500m Rear sight - Cleaning rod - Stainless steel heat shield - 2-Stage trigger - Scope rail - Left-side folding polymer stock - Accepts any Bulgarian mil-spec double stack 5.56x45 caliber magazine",
+    image: require("../../images/guns/rifles/ars/ars-slr10661.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/ars-slr10661.jpg"),
+    quickView: require("../../images/guns/rifles/ars/ars-slr10661.jpg"),
+    
+  },
+  {
+    id: 1193,
+    title:
+      "LWRC IC SPR 223 REMINGTON/5.56NATO 16.1'' SPIRAL FLUTED BARREL 30+1 BLACK ICR5B16SPR",
+    price: 2252,
+    description:
+      "LWRC's IC-SPR is constructed using the highest quality materials. It built on a patented self-regulating short-stroke gas piston system.",
+    image: require("../../images/guns/rifles/ars/lwicr5b16spr-1.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/lwicr5b16spr-1.jpg"),
+    quickView: require("../../images/guns/rifles/ars/lwicr5b16spr-1.jpg"),
+    
+  },
+  {
+    id: 1194,
+    title:
+      "ARML M15TAC16 M15 TACT 5.56 16",
+    price:1394 ,
+    description:
+      "ArmaLite\'s M15TAC16 blends rugged durability with exacting precision. It has a chrome-lined chrome moly barrel, tactical aluminum handguard with a slim, octagonal profile that sports a full length MIL-STD 1913 12 o\'clock rail for sights and accessories. This rifle has a Magpul STR multi-position collapsible buttstock, Magpul MBUS flip-up sights, and a flash hiding compensator. This model has a 16\" barrel and a mid-length gas system with an adjustable gas block.",
+    image: require("../../images/guns/rifles/ars/armlm15tac16-1.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/armlm15tac16-1.jpg"),
+    quickView: require("../../images/guns/rifles/ars/armlm15tac16-1.jpg"),
+    
+  },
+  {
+    id: 1195,
+    title:
+      "MPA 5700DMG 57X28 16TB SC SCP/MNT 20RD",
+    price: 768,
+    description:
+      "Action: Semi Auto - Caliber: 5.7x28mm - Capacity: 20 - Barrel Length: 16 - Side Cocker Scope Mount - (1) 16 Threaded Barrel - (1) 20 Round Polymer Magazine - (1) Muzzle Brake - Thread Size 1/2 x 28 - American Made - Ships in Gun Case - Lifetime Guarantee - MPA Low Profile Buttstock - MPA Aluminum Extruded Quadrail - Adjustable Front Sight - Fully Machined Aluminum Frame - Fully Machined Aluminum Grips - Accepts both FN57 and Promag 57 Magazines",
+    image: require("../../images/guns/rifles/ars/mpa-5700dmg.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/mpa-5700dmg.jpg"),
+    quickView: require("../../images/guns/rifles/ars/mpa-5700dmg.jpg"),
+    
+  },
+  {
+    id: 1196,
+    title:
+      "YHM BLACK DIAMOND CARBINE XL 556 1:7 TWIST",
+    price: 1308,
+    description:
+      "Action: Semi-Auto - Caliber: 5.56 NATO - Capacity: 30rd - Barrel: 16 (1:7) Fluted with Phantom 5C2 Flash Hider - Sights: Flip - Receiver Upper: 7075-T6 Aluminum Black - Receiver Lower: 7075-T6 Aluminum Black - Stock: Adjustable - Handguard: Specter XL (Rifle Length) Diamond - Weight: 6.9 lbs. - T Marked Upper Receiver - 16 4140 Steel Barrel Heat Treated to RC 25-32 - YHM Diamond Fluting Improves Rigidity and Aids in Barrel Cooling - YHM Phantom 5C2 Flash Hider / Compensator - YHM Specter XL (Rifle Length) Diamond Handguard (YHM-9635-DX) - YHM Forearm Endcap (YHM-9484-A) - YHM Low Profile Gas Block (YHM-9384) - YHM Forearm Mounted Flip Front Sight (YHM-9627) - YHM Flip Rear Sight (YHM-9680) - Adjustable Commercial Carbine Stock - Includes all Internal Parts - YHM is very pleased to offer the YHM-8820 Black Diamond Specter XL. Chambered in 5.56mm 6.8 SPC or .300 BLK with many of our premium accessories built in. Our Diamond series handguard bridges the gap between the upper receiver and hand guard and is marked for position on all 4 sides. The Diamond pattern in the hand guard reduces weight and blends nicely with our diamond fluted barrels.",
+    image: require("../../images/guns/rifles/ars/yhm-88207.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/yhm-88207.jpg"),
+    quickView: require("../../images/guns/rifles/ars/yhm-88207.jpg"),
+    
+  },
+  {
+    id: 1197,
+    title:
+      "CHIA CF500.090 M4 22LR CARBINE 28RD",
+    price: 367,
+    description:
+      "Action: Semi Auto - Caliber: 22 LR - Capacity: 28 - Finish: Matte Black - Material: Polymer/Steel - Stock: Adjustable Polymer 6 Position - Barrel Length: 16 - Overall Length: 34.3 - Weight: 5.7 lbs - Sights: Fixed Front - AR rifles are easy to handle and fun to shoot. The MFour captures the best features and attributes of the AR platform but chambered in .22lr. A near identical replica of an M4 carbine the Chiappa MFour is perfect for inexpensive plinking practice or for training at ranges where centerfire rifle cartridges are not allowed. MFour rifles come with a removable carry handle flattop Picatinny rail A2 style front sight post and 16 barrel. Many MIL SPEC components fit the Chiappa MFour including grips two piece handguards trigger etc. The MFour comes with either two 10 round magazines or two 28 round magazines depending on local laws and regulations. The MFour is also available in a pistol configuration with a 6 barrel and as complete upper receivers that will work on any MIL-SPEC AR lower receiver",
+    image: require("../../images/guns/rifles/ars/cf-cf500090.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/cf-cf500090.jpg"),
+    quickView: require("../../images/guns/rifles/ars/cf-cf500090.jpg"),
+    
+  },
+  {
+    id: 1198,
+    title:
+      "WIND R16A4T HBC 223 16 30R",
+    price: 891,
+    description:
+      "Windham Weaponry .223/5.56mm Model R16A4T has a M4A3 flat top upper receiver and detachable rear sight/carrying handle. Chromed 16\" barrel made of 4150 steel in M4 contour or heavy barrel. M4 double heat shield hand guards. with 6 position telescoping buttstock and aluminum trigger guard. Fixed front sight.",
+    image: require("../../images/guns/rifles/ars/wwr16a4t-1.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/wwr16a4t-1.jpg"),
+    quickView: require("../../images/guns/rifles/ars/wwr16a4t-1.jpg"),
+    
+  },
+  {
+    id: 1199,
+    title:
+      "IWI ZION-15 5.56NATO 12.5'' BARREL 30+1 Z15TAC12",
+    price: 999,
+    description:
+      "Adding to the ZION family of firearms the IWI Zion-15 5.56NATO Z15TAC12 is a 12.5” Mid-Length Tactical pistol that includes an 11.5″ Free Float Handguard, SB Tactical SBA3 Brace, B5 Grip, and includes one (1) 30 round Magpul PMAG",
+    image: require("../../images/guns/rifles/ars/z15tac12.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/z15tac12.jpg"),
+    quickView: require("../../images/guns/rifles/ars/z15tac12.jpg"),
+    
+  },
+  {
+    id: 1200,
+    title:
+      "ANDERSON AM15-BR 5.56NATO 16'' BARREL 30+1",
+    price:699 ,
+    description:
+      "The Anderson AM15-BR chambered in 5.56NATO/.223REM is a no frills AR with the quality you have come to trust from this respected American company. This optic ready, modern sporting rifle uses forged aluminum upper and lower receivers, a 9310 steel bolt in a standard M16 profile BCG, carbine length gas system and a 16” threaded barrel with an M4 contour. The AM15-BR sports A2 style furniture with a 6 position butt stock. Thanks to picatinny rails on the upper receiver and gas block you can mount your choice of iron and/or optical sights and be ready for your next range day. Anderson Manufacturing is a family owned American company located in Hebron Kentucky with a commitment to excellence. The AM15-BR is an all American rifle you will be proud to make your own. One 30 round steel magazine included.",
+    image: require("../../images/guns/rifles/ars/b2k850aa00_l.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/b2k850aa00_l.jpg"),
+    quickView: require("../../images/guns/rifles/ars/b2k850aa00_l.jpg"),
+    
+  },
+  {
+    id: 1201,
+    title:
+      "SPRINGFIELD SAINT VICTOR B5 5.56NATO 16'' BARREL 30+1",
+    price:1149 ,
+    description:
+      "",
+    image: require("../../images/guns/rifles/ars/stv916556b-b5.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/stv916556b-b5.jpg"),
+    quickView: require("../../images/guns/rifles/ars/stv916556b-b5.jpg"),
+    
+  },
+  {
+    id: 1202,
+    title:
+      "SPRINGFIELD SAINT B5 5.56NATO 16'' BARREL 30+1",
+    price: 943,
+    description:
+      "",
+    image: require("../../images/guns/rifles/ars/st916556b-b5.jpg"),
+    imageHover: require("../../images/guns/rifles/ars/st916556b-b5.jpg"),
+    quickView: require("../../images/guns/rifles/ars/st916556b-b5.jpg"),
+    
+  },
+  {
+    id: 1203,
+    title:
+      "IWI ZION-15 5.56NATO 16'' BARREL 30+1 Z15TAC16",
+    price: 999,
+    description:
+      "The IWI Zion-15 5.56NATO is the first M4 Variant rifle from this brand, this 16″ Tactical Rifle includes a 15″ Free Float Handguard, a B5 Systems Stock, and Grip, and includes one (1) 30 round Magpul PMAG. Proudly manufactured and assembled at the IWI US facility in Middletown, Pennsylvania.",
+    image: require("../../images/guns/rifles/ars/z15tac16 (1).jpg"),
+    imageHover: require("../../images/guns/rifles/ars/z15tac16 (1).jpg"),
+    quickView: require("../../images/guns/rifles/ars/z15tac16 (1).jpg"),
+    
+  },
+
 ];
 
 export const aks= [
@@ -265,6 +673,140 @@ export const aks= [
   quickView: require("../../images/guns/rifles/aks/hg4257-n.png"),
   
 },
+{
+  id: 1204,
+  title:
+    " CENTURY WASR-M 9MM 17.5'' BARREL 33+1 RI3765-N ",
+  price: 699,
+  description:
+    " The WASR-M is a semi automatic 9mm rifle from Century Arms with the classic look feel and controls of the popular WASR-10 AK pattern rifle. This pistol caliber rifle has a 17.5`` cold hammer forged, threaded barrel with the iconic AK slant break. Classic AK adjustable sights provide accurate target acquisition. The WASR-M uses direct blowback operation and a modified receiver compatible with standard 9mm Glock magazines for availability and reliability. A standard AK side mount is built into the stamped receiver for mounting optics. Controls are right where you expect them to be with a standard AK safety selector and magazine release. This modern sporting rifle chambered in 9mm delivers a soft recoiling shooting experience perfect for training, plinking, or PCC competition. One 33 round Glock magazine included.  ",
+  image: require("../../images/guns/rifles/aks/ri3765-n.jpg"),
+  imageHover: require("../../images/guns/rifles/aks/ri3765-n.jpg"),
+  quickView: require("../../images/guns/rifles/aks/ri3765-n.jpg"),
+  
+},
+{
+  id: 1205,
+  title:
+    " ARS SAM7R 7.62X39 16 MID LENGTH BLK 10RD ",
+  price: 1356,
+  description:
+    "  Action: Semi-Auto - Caliber: 7.62x39mm - Capacity: 10rd - Barrel: 16.25 (1:9.45) with Muzzle Brake - Sights: Adjustable Iron - Receiver: Milled Steel Black - Stock: Synthetic Black - Grip: Synthetic Black - Handguard: Synthetic Black - Length: 36.5 - Weight: 8 lbs. - 100% new-production parts and components - Bulgarian hot-die hammer forged receiver bolt bolt carrier and double-hook trigger - Cold hammer-forged 16.3 barrel from Arsenal",
+  image: require("../../images/guns/rifles/aks/ars-sam7r61.jpg"),
+  imageHover: require("../../images/guns/rifles/aks/ars-sam7r61.jpg"),
+  quickView: require("../../images/guns/rifles/aks/ars-sam7r61.jpg"),
+  
+},
+{
+  id: 1206,
+  title:
+    " CENTURY WASR-10 SIDE FOLDING 7.62X39 16`` 30+1 RI3996-N ",
+  price: 865,
+  description:
+    "  ",
+  image: require("../../images/guns/rifles/aks/cenri3996n_pic_1.jpg"),
+  imageHover: require("../../images/guns/rifles/aks/cenri3996n_pic_1.jpg"),
+  quickView: require("../../images/guns/rifles/aks/cenri3996n_pic_1.jpg"),
+  
+},
+
+{
+  id: 1207,
+  title:
+    "  PIONEER ARMS RADOM POLISH AK-47 7.62X39MM 16`` 30+1",
+  price: 749,
+  description:
+    " This Pioneer Arms AK-47 7.62x39 Rifle got it's start at the Pioneer Arms factory in Radom Poland with the final U.S. compliance and finish work being done here in the U.S. by James River Armory. Rifle possesses the original high quality Polish Receiver and Barrel and many of the original Com-Bloc characteristic's that you would expect from a Polish based rifle... However, contains enough U.S. parts to make it fully U.S. 922r compliant. Final compliance completion on the rifle is done at James River Armory. ",
+  image: require("../../images/guns/rifles/aks/pioak-s.jpg"),
+  imageHover: require("../../images/guns/rifles/aks/pioak-s.jpg"),
+  quickView: require("../../images/guns/rifles/aks/pioak-s.jpg"),
+  
+},
+{
+  id: 1208,
+  title:
+    " CENTURY VSKA 7.62X39MM 16.5'' BARREL 30+1 RI3284-N ",
+  price: 576,
+  description:
+    " For 2019 Century Arms introduces its newest heavy duty AK rifle, the VSKA (vis-kuh). Re-engineered with critical components using machined S7 tool steel, a material so highly regarded for it's ability to withstand heavy duty action that it's used in excavator teeth and jackhammer tips! ",
+  image: require("../../images/guns/rifles/aks/ri3284n_2.jpg"),
+  imageHover: require("../../images/guns/rifles/aks/ri3284n_2.jpg"),
+  quickView: require("../../images/guns/rifles/aks/ri3284n_2.jpg"),
+  
+},
+{
+  id: 1209,
+  title:
+    " CENTURY AK63DS 7.62X39MM 16.5'' BARREL 30+1 RI2397-X ",
+  price:589.00 ,
+  description:
+    "  ",
+  image: require("../../images/guns/rifles/aks/century-arms-ak63ds-ri2397-x-787450380677.jpg_1.jpg"),
+  imageHover: require("../../images/guns/rifles/aks/century-arms-ak63ds-ri2397-x-787450380677.jpg_1.jpg"),
+  quickView: require("../../images/guns/rifles/aks/century-arms-ak63ds-ri2397-x-787450380677.jpg_1.jpg"),
+  
+},
+{
+  id: 1210,
+  title:
+    " CIA RI3036N RH10 7.62X39 WOOD FURN ",
+  price:760 ,
+  description:
+    "Century RI3036N RH10 7.62X39mm 16.25\\\" 30+1 Fixed Wood Stock Black Stamped Steel Receiver  ",
+  image: require("../../images/guns/rifles/aks/cari3036-n_2_hr.jpg"),
+  imageHover: require("../../images/guns/rifles/aks/cari3036-n_2_hr.jpg"),
+  quickView: require("../../images/guns/rifles/aks/cari3036-n_2_hr.jpg"),
+  
+},
+{
+  id: 1211,
+  title:
+    " CENTURY N-PAP AK-47 7.62X39MM 16'' BARREL 30+1 WOOD STOCK RI2087N    ",
+  price: 499,
+  description:
+    " The N-PAP has a 16.25'' cold hammer forged barrel with a 1:10'' twist and 14x1 LH muzzle threads. It has a stamped receiver and bolt hold-open notch on the safety selector. The bolt and bolt carrier are made from hard, nickel-moly steel for corrosion resistance. It accepts all standard AK magazines and includes one 30-round magazine. This model has a wood stock and forend. ",
+  image: require("../../images/guns/rifles/aks/19147-default-l.jpg"),
+  imageHover: require("../../images/guns/rifles/aks/19147-default-l.jpg"),
+  quickView: require("../../images/guns/rifles/aks/19147-default-l.jpg"),
+  
+},
+{
+  id: 1212,
+  title:
+    " CENTURY C39V2 TACTICAL 7.62X39MM 16.5'' BARREL 30+1 WOOD/BLACK RI2880N ",
+  price: 765,
+  description:
+    " CALIBER: 7.62x39mm - CAPACITY: 30 rds. - BARREL: 16.5 - OVERALL: 37.25 - WEIGHT: 7.5 lbs - 100% American made - Barrel 1:10 twist concentric LH 14x1 metric thread and ready for a variety of muzzle attachments - Chrome moly 4150 nitride treated barrel - Milled 4140 ordnance quality steel receiver - 1st AK side scope rail mount to offer a return to zero capability also offers four times clamping improvement over traditional side scope rail mounts and improves sight acquisition for follow-up shots - RAK-1 Enhanced Trigger Group - Larger T shaped magazine catch - Compatibility with AKM furniture - Standard AKM rear sight with Front sight gas block combo - Retaining plate - Bolt hold-open notch on the safety selector - Proprietary Chevron muzzle brake - Bolt carrier tail heat treated to ensure maximum performance and life - Accepts all standard AK mags. - Walnut wood furniture - Comes with one 30 rd. mag.",
+  image: require("../../images/guns/rifles/aks/cari2880-n-1 (1).jpg"),
+  imageHover: require("../../images/guns/rifles/aks/cari2880-n-1 (1).jpg"),
+  quickView: require("../../images/guns/rifles/aks/cari2880-n-1 (1).jpg"),
+  
+},
+{
+  id: 1213,
+  title:
+    " CENTURY WASR-10 7.62X39 16.25'' BARREL 30+1 RI1805N ",
+  price:855 ,
+  description:
+    " The Wassenaar Arrangement Semiautomatic Rifle is a semi-automatic version of the Romanian military Pistol Mitralier model 1963/1965, better known here in the US as the ''Romy G''. Made by Cugir Factory and Imported and modified by Century International Arms to conform with 922(r) the WASR is an inexpensive, durable, reliable and customizable Kalishnikov series rifle, and the GP WASR 10 is perfect for the beginner or AK-47 purist. ",
+  image: require("../../images/guns/rifles/aks/gb-wasrgp-1_4.jpg"),
+  imageHover: require("../../images/guns/rifles/aks/gb-wasrgp-1_4.jpg"),
+  quickView: require("../../images/guns/rifles/aks/gb-wasrgp-1_4.jpg"),
+  
+},
+{
+  id: 1214,
+  title:
+    " CENTURY ARMS VSKA 7.62X39MM 16.5'' BARREL 10+1 *CA* ",
+  price: 744,
+  description:
+    "  This Centrury Arms VSKA is a heavy duty, California compliant AK47 chambered in 7.62x39mm and made in the USA. This rifle uses shock resistant S7 tool steel that is commonly used for high impact tools such as jackhammer and chisel tips for all important components. This heat treated S7 tool steel is used in the bolt carrier, front trunion, and feed ramp for maximum durability. The quality continues with a chrome moly 4150 barrel and case hardened 4140 steel bolt. The VSKA uses standard AK protected post front and adjustable rear sights. A RAK-1 enhanced trigger group with a light pull ensures that this AK shoots as good as it looks. This California compliant VSKA has a polymer butstock and forend, and compliant “featureless” grip. One 10 round compliant magazine included.",
+  image: require("../../images/guns/rifles/aks/ri3291ccn.png"),
+  imageHover: require("../../images/guns/rifles/aks/ri3291ccn.png"),
+  quickView: require("../../images/guns/rifles/aks/ri3291ccn.png"),
+  
+},
+
 ];
 
 export const boltAction= [
@@ -388,6 +930,427 @@ export const boltAction= [
     quickView: require("../../images/guns/rifles/bolt/sav-28717.jpg"),
     
   },
+  {
+    id: 1215,
+    title:
+      " BROWNING A-BOLT III HUNTER 308WIN 22'' 5+1 035801218",
+    price: 599.00,
+    description:
+      " Action: Bolt - Caliber: 308 Win - Capacity: 5 - Length of Pull: 13 5/8 - Drop at Comb: 11/16 - Drop at Heel: 1/2 - Twist Rate: 1 in 12 - Barrel Finish: Matte Blued - Stock Finish: Satin - Drilled and Tapped for Scope: Yes - Barrel Length: 22 - Overall Length: 42 - Weight: 6 lbs 11 oz",
+    image: require("../../images/guns/rifles/bolt/bro-035801218.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035801218.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035801218.jpg"),
+    
+  },
+  {
+    id: 1216,
+    title:
+      " BROWNING A-BOLT COMPOSITE STALKER III 308WIN 22'' BARREL 5+1 MATTE BLACK/MATTE BLUED 035800218",
+    price: 569.00,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/bolt/bro-035801218.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035801218.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035801218.jpg"),
+    
+  },
+  {
+    id: 1217,
+    title:
+      "BRN 035-346209 XBLT MIC MIDAS 22250 ",
+    price: 799.00,
+    description:
+      "Action: Bolt - Caliber: 22-250 Rem - Capacity: 4 - Finish: Blued - Stock: Black Walnut Gloss - Twist: 1:9 - Barrel Length: 20 - Overall Length: 41.5 - Weight: 6 lb 1 oz ",
+    image: require("../../images/guns/rifles/bolt/bro-035346209.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035346209.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035346209.jpg"),
+    
+  },
+  {
+    id: 1218,
+    title:
+      "BROWNING X-BOLT HUNTER 270WSM 23`` BARREL 3+1 LEFT HAND BLACK WALNUT STOCK/BLUED 035255248 ",
+    price: 888.00,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/bolt/bro-035255248.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035255248.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035255248.jpg"),
+    
+  },
+  {
+    id: 1219,
+    title:
+      "BROWNING X-BOLT MEDALLION 300WSM 23'' BARREL 3+1 LEFT HAND BLACK WALNUT STOCK/BLUED 035253246 ",
+    price: 888.00,
+    description:
+      " Action: Bolt - Caliber: 300 WSM - Barrel Length: 23 - Overall Length: 42 3/4 - Length of Pull: 13 5/8 - Drop at Comb: 11/16 - Drop at Heel: 1/2 - Weight: 6 lbs 11oz - Magazine Capacity: 3 - Twist Rate: 1 in 10 - Barrel Finish: Polished Blued - Stock Finish: Gloss - Wood Grade: Grade I - Receiver Finish: Polished Blued - Chamber Finish: Polished - Barrel Material: Steel - Barrel Contour: Sporter - Stock Material: Black Walnut - Recoil Pad: Inflex 1 Small - Pistol Grip Cap: Rosewood - Checkering: Cut 18 LPI - Sling Swivel Studs: Gloss Blued - Forend Cap: Rosewood - Receiver Material: Steel - Trigger Finish: Gold Plated - Trigger Guard Finish: Polished Black - Bolt Slide Finish: High Gloss - Magazine Type: Detachable - Trigger Material: Alloy - Trigger Guard Material: Alloy - Trigger Guard Engraving: Buck Mark in Gold - Receiver Engraving: Roll - Floor Plate Material: Composite - Drilled and Tapped for Scope: Yes - LEFT HANDED",
+    image: require("../../images/guns/rifles/bolt/bro-035255248.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035255248.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035255248.jpg"),
+    
+  },
+  {
+    id: 1220,
+    title:
+      " BROWNING X-BOLT WHITE GOLD 300WIN MAGNUM 26'' BARREL 3+1 BLACK WALNUT STOCK/STAINLESS 035235229",
+    price: 1299.00,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/bolt/bro-035235229.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035235229.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035235229.jpg"),
+    
+  },
+  {
+    id: 1221,
+    title:
+      " BROWNING X-BOLT WHITE GOLD 300WIN MAGNUM 26'' BARREL 3+1 BLACK WALNUT STOCK/STAINLESS 035235229",
+    price: 1299.00,
+    description:
+      " Action: Bolt - Caliber: 308 Win - Barrel Length: 22 - Overall Length: 41 3/4 - Length of Pull: 13 5/8 - Drop at Comb: 3/4 - Drop at Heel: 1 7/16 - Weight: 6 lbs 8 oz - Capacity: 4 - Twist Rate: 1 in 12 - Barrel Finish: Satin - Stock Finish: Gloss - Receiver Finish: Satin - Chamber Finish: Polished - Barrel Material: Stainless - Barrel Contour: Sporter - Stock Material: Black Walnut - Recoil Pad: Inflex 1 Small - Pistol Grip Cap: Rosewood - Checkering: Cut 18 LPI - Sling Swivel Studs: Nickel - Forend Cap: Rosewood - Receiver Material: Stainless - Trigger Finish: Gold Plated - Trigger Guard Finish: Polished Sliver - Bolt Slide Finish: High Gloss - Magazine Type: Detachable - Trigger Material: Alloy - Trigger Guard Material: Alloy - Trigger Guard Engraving: Buck Mark in Gold - Receiver Engraving: Roll - Floor Plate Material: Composite - Drilled and Tapped for Scope: Yes",
+    image: require("../../images/guns/rifles/bolt/bro-035235229.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035235229.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035235229.jpg"),
+    
+  },
+  {
+    id: 1222,
+    title:
+      "BROWNING X-BOLT WHITE GOLD 243WIN 22'' BARREL 4+1 WALNUT STOCK/STAINLESS 035235211 ",
+    price: 129.00,
+    description:
+      "Action: Bolt - Caliber: 243 Win - Barrel Length: 22 - Overall Length: 41 3/4 - Length of Pull: 13 5/8 - Drop at Comb: 3/4 - Drop at Heel: 1 7/16 - Weight: 6 lbs 8 oz - Capacity: 4 - Twist Rate: 1 in 10 - Barrel Finish: Satin - Stock Finish: Gloss - Wood Grade: Grade IV/V - Receiver Finish: Satin - Chamber Finish: Polished - Barrel Material: Stainless - Barrel Contour: Sporter - Stock Material: Black Walnut - Recoil Pad: Inflex 1 Small - Pistol Grip Cap: Rosewood - Checkering: Cut 18 LPI - Sling Swivel Studs: Nickel - Forend Cap: Rosewood - Receiver Material: Stainless - Trigger Finish: Gold Plated - Trigger Guard Finish: Polished Sliver - Bolt Slide Finish: High Gloss - Magazine Type: Detachable - Trigger Material: Alloy - Trigger Guard Material: Alloy - Trigger Guard Engraving: Buck Mark in Gold - Receiver Engraving: Roll - Floor Plate Material: Composite - Drilled and Tapped for Scope: Yes ",
+    image: require("../../images/guns/rifles/bolt/bro-035235211.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035235211.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035235211.jpg"),
+    
+  },
+  {
+    id: 1223,
+    title:
+      "BROWNING X-BOLT WHITE GOLD RMEF 300WIN MAGNUM 26'' BARREL 3+1 GLOSS BLACK WALNUT STOCK/STAINLESS 035217229 ",
+    price: 1389.00,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/bolt/bro-035235229.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035235229.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035235229.jpg"),
+    
+  },
+  {
+    id: 1224,
+    title:
+      " BRN 035-200223 XBLT MED 2506 GLS",
+    price: 941,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/bolt/bro-035200223.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035200223.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035200223.jpg"),
+    
+  },
+  {
+    id: 1225,
+    title:
+      " BRN 035-200218 XBLT MED 308 GLS",
+    price: 941.00,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/bolt/bro-035800218.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035800218.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035800218.jpg"),
+    
+  },
+  {
+    id: 1226,
+    title:
+      " BROWNING X-BOLT WHITE GOLD RMEF 300WIN MAGNUM 26'' BARREL 3+1 GLOSS BLACK WALNUT STOCK/STAINLESS 035217229",
+    price: 1399.00,
+    description:
+      " Action: Bolt - Caliber: 300 Win Mag - Capacity: 3 - Finish: Satin - Stock: Gloss Black Walnut - Twist: 1:10 - Barrel Length: 26 - Overall Length: 46.75 - Weight: 7 lb - A strong foundation starts with the Rocky Mountain Elk Foundation. This rifle represents the Rocky Mountain Elk Foundation and its logo is inset in the grip cap. This superb rifle is one you will show off to friends and certainly to pass on to the family. This deluxe rifle offers more embellishments and attractive gold Engraving than your average bolt-action rifle. It has a fine Monte Carlo stock satin-finished Stainless steel barrel and receiver the receiver being etched in gold. A portion of the sale of this rifle goes to the RMEF for assistance in establishing habitat and refuge for elk across America. Some of the unique things you will enjoy. A satin gloss finish provides protection and enhances the natural beauty of the hardwood. Rosewood caps on the fore-end and grip offer additional elegance. The high-grade Walnut stock with detailed checkering provides classic good looks. The raised cheekpiece helps to direct recoil into the shoulder area and quickly puts the shooter's line of sight in alignment with the scope. Durable low-luster Stainless steel to minimize reflection and provide resistance to corrosion. Matte gold etching on the receiver. Quality first. This X-Bolt features a button-rifled barrel that is triple checked for quality and individually hand chambered and air gauged to ensure consistency and accuracy. The target Crown enables the uniform release of gas as the bullet exits the barrel preventing a shift in trajectory. The Crown is recessed to protect it from accidental damage that degrades accuracy. The free floated barrel eliminates contact interference from the fore-end enabling the superior barrel craftsmanship to perform consistently and accurately. It's drilled and tapped for X-Lock scope mounts that use four screws for each base to provide a rock solid optic platform. The adjustable Feather Trigger minimizes the human factor by eliminating creep and take-up providing a crisp trigger pull that breaks like glass.",
+    image: require("../../images/guns/rifles/bolt/bro-035217229 (1).jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035217229 (1).jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035217229 (1).jpg"),
+    
+  },
+  {
+    id: 1227,
+    title:
+      "BRN 025-176270 T-BLT 17HMR TAR/VAR SAT",
+    price: 688.00,
+    description:
+      " Action: Bolt - Caliber: 17 HMR - Capacity: 10 - Finish: Polished Blued Steel - Stock: Satin Black Walnut - Length of Pull: 13.5 - Twist: 1:9 - Barrel Length: 22 - Overall Length: 40.25 - Weight: 5 lb 8 oz - Features: Sling Swivel Studs Installed",
+    image: require("../../images/guns/rifles/bolt/bro-025176270.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-025176270.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-025176270.jpg"),
+    
+  },
+  {
+    id: 1228,
+    title:
+      "REM.85538 700 SPS TACT 308 TH MZ GRN ",
+    price: 711.00,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/bolt/rem85538-1.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/rem85538-1.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/rem85538-1.jpg"),
+    
+  },
+  {
+    id: 1229,
+    title:
+      " REM 84226 700 SPS SYN VAR 22250 LH 26",
+    price: 643.00,
+    description:
+      "The Remington Model 700 SPS Varmint rifle is built on the Model 700 action, which is the most solid, dependable, and trusted in existence. The 26\" heavy-contour barrel is perfectly matched to its high-velocity caliber offerings, and the ergonomically-designed black synthetic stock has a vented beavertail forend for enhanced grip, reduced weight, and better heat dissipation. The barrel and receiver have a non-reflective matte blued finish, and this model features a hinged floorplate magazine, sling swivel studs, and a drilled and tapped receiver. This model is configured for left-handed shooters. ",
+    image: require("../../images/guns/rifles/bolt/rem-84226.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/rem-84226.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/rem-84226.jpg"),
+    
+  },
+  {
+    id: 1230,
+    title:
+      " REM.25793 700 BDL 30-06",
+    price:839.00,
+    description:
+      " The Remington Model 700 rifle is a superior performer in every way, and it is still the most accurate out-of-the-box rifle made. The Model 700 BDL offers consistent accuracy, classic beauty, and unequaled value. Its high-gloss American walnut stock is enhanced by a distinctive black forend cap, a Monte Carlo comb with raised cheekpiece, and generous skip line cut checkering. This rifle features a hinged magazine floorplate, sling swivel studs, a hooded ramp front sight, an adjustable rear sight, and the externally-adjustable X-Mark Pro trigger system.",
+    image: require("../../images/guns/rifles/bolt/rem25793-1.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/rem25793-1.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/rem25793-1.jpg"),
+    
+  },
+  {
+    id: 1231,
+    title:
+      " REM 27009 700 CDL 25-06",
+    price: 868.00,
+    description:
+      "The Remington Model 700 CDL is a rifle that is a superior performer in every way. Its accuracy and dependability have become the standard by which all other centerfire rifles are measured and continually fall short. Still the most accurate out-of-the-box rifle made,the Model 700 brings its famous action and renowned consistency to this diverse family of guns. This model is equipped with the externally adjustable X-Mark Pro trigger system. ",
+    image: require("../../images/guns/rifles/bolt/rem27009-1.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/rem27009-1.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/rem27009-1.jpg"),
+    
+  },
+  {
+    id: 1232,
+    title:
+      " REM 27007 700 CDL 243",
+    price: 868.00,
+    description:
+      " The Remington Model 700 CDL is a rifle that is a superior performer in every way. Its accuracy and dependability have become the standard by which all other centerfire rifles are measured and continually fall short. Still the most accurate out-of-the-box rifle made,the Model 700 brings its famous action and renowned consistency to this diverse family of guns. This model is equipped with the externally adjustable X-Mark Pro trigger system.      ",
+    image: require("../../images/guns/rifles/bolt/rem27007-1.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/rem27007-1.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/rem27007-1.jpg"),
+    
+  },
+  {
+    id: 1233,
+    title:
+      " SAV 22207 11TH XP 7MM08 YTH MGC W/NIK",
+    price: 559.00,
+    description:
+      " Action: Bolt - Caliber: 7mm-08 Rem - Capacity: 4+1 - Finish: Black - Stock: Synthetic Muddy Girl - Scope: Nikon 3-9X40mm - Barrel Length: 20 - Overall Length: 39.5 - Weight: 7 lb",
+    image: require("../../images/guns/rifles/bolt/sav-22207.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-22207.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-22207.jpg"),
+    
+  },
+  {
+    id: 1234,
+    title:
+      " SAV 18516 12BTCSS VAR 223 DBM THS",
+    price: 1139.00,
+    description:
+      "Savage Model 12 BTCSS is another addition to the 12 Varmint Series that features a detachable box magazine with a right bolt/right port and a Varminter Low Profile. It also features a laminated thumbhole stock, matte finish stainless steel barrel, and drilled/tapped receiver for mounting scopes.      ",
+    image: require("../../images/guns/rifles/bolt/sav-18516.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-18516.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-18516.jpg"),
+    
+  },
+  {
+    id: 1235,
+    title:
+      " SAV 22208 11TH XP 308 YTH MGC W/NIK",
+    price: 619.00,
+    description:
+      " Action: Bolt - Caliber: .308 Win - Capacity: 4+1 - Finish: Black - Stock: Synthetic Muddy Girl - Scope: Nikon 3-9X40mm - Barrel Length: 20 - Overall Length: 39.5 - Weight: 7 lb",
+    image: require("../../images/guns/rifles/bolt/sav-22208.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-22208.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-22208.jpg"),
+    
+  },
+  {
+    id: 1236,
+    title:
+      " SAV 19793 110 TH XP 7MM REM W/NIK",
+    price: 614,
+    description:
+      "Action: Bolt - Caliber: 7mm Rem Mag - Capacity: 3 - Finish: Matte Black - Stock: Satin Wood - Scope: Nikon 3-9x40 BDC Reticle - Barrel Length: 22 - Overall Length: 41.5 - Weight: 8.3 lb ",
+    image: require("../../images/guns/rifles/bolt/sav-19793.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-19793.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-19793.jpg"),
+    
+  },
+  {
+    id: 1237,
+    title:
+      " REM 84151 700 SPS LH 7MM08 CMPT",
+    price: 617.00,
+    description:
+      " Remington\'s Model 700 SPS (Special Purpose Synthetic) Compact offers everything you love about the legendary Model 700 at an affordable price. With a 20\" barrel and 1\" shorter LOP, this compact version is perfect for youth and smaller stature shooters. It features an improved, ergonomically-designed synthetic stock for better handling and enhanced overall functionality. The carbon steel barrel is clean without sights, and the receiver is drilled and tapped for scope mounts. All exterior metalwork features a matte blued finish, and the rifle also features a hinged floorplate magazine and swivel studs.",
+    image: require("../../images/guns/rifles/bolt/rem85538-1.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/rem85538-1.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/rem85538-1.jpg"),
+    
+  },
+  {
+    id: 1238,
+    title:
+      " BROWNING X-BOLT WHITE GOLD 270WSM 23'' BARREL 3+1 BLACK WALNUT STOCK/STAINLESS 035235248",
+    price: 1320.00,
+    description:
+      "Action: Bolt - Caliber: 270 WSM - Barrel Length: 23 - Overall Length: 42 3/4 - Length of Pull: 13 5/8 - Drop at Comb: 3/4 - Drop at Heel: 1 7/16 - Weight: 6 lbs 11 oz - Capacity: 3 - Twist Rate: 1 in 10 - Barrel Finish: Satin - Stock Finish: Gloss - Wood Grade: Grade IV/V - Receiver Finish: Satin - Chamber Finish: Polished - Barrel Material: Stainless - Barrel Contour: Sporter - Stock Material: Black Walnut - Recoil Pad: Inflex 1 Small - Pistol Grip Cap: Rosewood - Checkering: Cut 18 LPI - Sling Swivel Studs: Nickel - Forend Cap: Rosewood - Receiver Material: Stainless - Trigger Finish: Gold Plated - Trigger Guard Finish: Polished Sliver - Bolt Slide Finish: High Gloss - Magazine Type: Detachable - Trigger Material: Alloy - Trigger Guard Material: Alloy - Trigger Guard Engraving: Buck Mark in Gold - Receiver Engraving: Roll - Floor Plate Material: Composite - Drilled and Tapped for Scope: Yes ",
+    image: require("../../images/guns/rifles/bolt/bro-035235248.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035235248.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035235248.jpg"),
+    
+  },
+  {
+    id: 1239,
+    title:
+      "BROWNING X-BOLT WHITE GOLD 300WSM 23'' BARREL 3+1 BLACK WALNUT STOCK/STAINLESS 035235246 ",
+    price: 1329.00,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/bolt/bro-035255248.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/bro-035255248.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/bro-035255248.jpg"),
+    
+  },
+  {
+    id: 1240,
+    title:
+      "SAV 70801 B17FV 17HMR ",
+    price: 300.00,
+    description:
+      " The Savage B17 FV rifle features a black synthetic stock, 21\" black carbon steel barrel, a detachable rotary magazine, and an AccuTrigger that gives a shooter the flexibility to set the trigger pull to their individual preferences.      ",
+    image: require("../../images/guns/rifles/bolt/sv70801-1.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sv70801-1.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sv70801-1.jpg"),
+    
+  },
+  {
+    id: 1241,
+    title:
+      " REM 84014 700 CDL SF 270 24 FLUTED",
+    price: 799.00,
+    description:
+      " The Remington Model 700 is a rifle that is a superior performer in every way. Its accuracy and dependability have become the standard from which all other centerfire rifles are measured. Still, the most accurate out-of-the-box rifle made, the Model 700 brings its famous action and renowned consistency to three additions to the prestigious family of guns. When first introduced, the Limited Edition Model 700 CDL SF LTD was met with such great success customers demanded a full line be produced. Each Model 700 CDL SF features engraved floorplate and the \'Limited\' markings on the receiver.",
+    image: require("../../images/guns/rifles/bolt/rem84014-1.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/rem84014-1.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/rem84014-1.jpg"),
+    
+  },
+  {
+    id: 1242,
+    title:
+      " SAVAGE 93R17 TR 17HMR 21'' BARREL 5+1 BLACK 96772",
+    price: 799.00,
+    description:
+      "Action: Bolt - Caliber: 17 HMR - Capacity: 5 - Finish: Matte Black - Stock: Black Wood - Twist: 1:9 - Barrel Length: 21 - Overall Length: 40 - Weight: 7.5 lb ",
+    image: require("../../images/guns/rifles/bolt/sav-96772.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-96772.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-96772.jpg"),
+    
+  },
+  {
+    id: 1243,
+    title:
+      " SAV 96771 93R17BSEV 17HMR",
+    price: 568.00,
+    description:
+      " The 93R17 BSEV has a detachable box magazine, a blued spiral-fluted carbon steel barrel, and a Monte Carlo stock finished in a modern multi-color, wood-grain laminate. This model features Savage\'s AccuTrigger that provides crisp trigger pulls and enhanced accuracy while allowing non-compromising adjustability with no gunsmithing.",
+    image: require("../../images/guns/rifles/bolt/sav-96771.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-96771.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-96771.jpg"),
+    
+  },
+  {
+    id: 1244,
+    title:
+      "SAV 96770 93R17BRJ 17HMR ",
+    price: 478.00,
+    description:
+      " The 93R17 BRJ has a detachable box magazine, a blued spiral-fluted carbon steel barrel, and a Monte Carlo stock finished in a modern multi-color, wood-grain laminate. This model features Savage\'s AccuTrigger that provides crisp trigger pulls and enhanced accuracy while allowing non-compromising adjustability with no gunsmithing",
+    image: require("../../images/guns/rifles/bolt/sav-96770.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-96770.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-96770.jpg"),
+    
+  },
+  {
+    id: 1245,
+    title:
+      " SAV 96734 93R17BV 17HMR",
+    price: 363.00,
+    description:
+      "The 93R17 BV bolt action rifles helps heighten the fun of rimfire shooting while maintaining Savage standards of meticulous crafting with the balance of modern, high-tech methods and old-world hand craftsmanship. It has a built-in adjustability AccuTrigger that provides a crisp, clean trigger pull, which enhances accuracy. This model features a carbon steel heavy varmint barrel, a detachable box magazine, and a wood-grained laminate stock with cut checkering and a Monte Carlo-style comb. ",
+    image: require("../../images/guns/rifles/bolt/sav-96734.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-96734.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-96734.jpg"),
+    
+  },
+  {
+    id: 1246,
+    title:
+      " SAV 96717 93R17GLV 17HMR AT HB LH WD",
+    price: 290.00,
+    description:
+      "The 93R17 GLV bolt action rifle helps heighten the fun of rimfire shooting while maintaining Savage standards of meticulous crafting with the balance of modern, high-tech methods and old-world hand craftsmanship. It has a built-in adjustability AccuTrigger that provides a crisp, clean trigger pull, which enhances accuracy. This model features a blued carbon steel heavy varmint barrel, detachable box magazine, and a hardwood stock with a walnut stain and cut checkering. ",
+    image: require("../../images/guns/rifles/bolt/sav-96717.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-96717.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-96717.jpg"),
+    
+  },
+  {
+    id: 1247,
+    title:
+      " SAV 96712 93R17FSS 17HMR AT SS",
+    price: 301.00,
+    description:
+      "The 93R17 FSS bolt action rifle helps heighten the fun of rimfire shooting while maintaining Savage standards of meticulous crafting with the balance of modern, high-tech methods and old-world hand craftsmanship. It has a built-in adjustability AccuTrigger that provides a crisp, clean trigger pull, which enhances accuracy. This model features a two-position safety located immediately behind the bolt handle. It also features a stainless steel barrel, black synthetic stock with cut checkering and a detachable box magazine. ",
+    image: require("../../images/guns/rifles/bolt/sav-96712.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-96712.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-96712.jpg"),
+    
+  },
+  {
+    id: 1248,
+    title:
+      "SAV 96711 93R17CAMO 17HMR AT CAMO ",
+    price: 281,
+    description:
+      " The 93R17 Camo bolt action rifle helps heighten the fun of rimfire shooting while maintaining Savage standards of meticulous crafting with the balance of modern, high-tech methods and old-world hand craftsmanship. It has a built-in adjustability AccuTrigger that provides a crisp, clean trigger pull, which enhances accuracy. This model features a two-position safety located immediately behind the bolt handle at the right rear of the action. It also features a blued carbon steel barrel, detachable box magazine, and a synthetic stock with finished in matte Next G1 camouflage with a cut-checkered detail.",
+    image: require("../../images/guns/rifles/bolt/sav-96711.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-96711.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-96711.jpg"),
+    
+  },
+  {
+    id: 1249,
+    title:
+      "SAV 96705 93R17BVSS 17HMR AT LAM ",
+    price: 379.00,
+    description:
+      " The 93R17 BVSS bolt action rifles helps heighten the fun of rimfire shooting while maintaining Savage standards of meticulous crafting with the balance of modern, high-tech methods and old-world hand craftsmanship. It has a built-in adjustability AccuTrigger that provides a crisp, clean trigger pull, which enhances accuracy. This model features a stainless steel heavy varmint barrel, detachable box magazine, and a gray wood-grained laminate stock with cut checkering and a Monte Carlo-style comb.",
+    image: require("../../images/guns/rifles/bolt/sav-96705.jpg"),
+    imageHover: require("../../images/guns/rifles/bolt/sav-96705.jpg"),
+    quickView: require("../../images/guns/rifles/bolt/sav-96705.jpg"),
+    
+  },
+ 
 
 ];
 
@@ -488,6 +1451,487 @@ export const hunting= [
     quickView: require("../../images/guns/rifles/hunting/tc-28205651.jpg"),
     
   },
+  {
+    id: 1250,
+    title:
+      "  TIKKA JRTXA318 T3X HUNTER 270",
+    price:819 ,
+    description:
+      " The Tikka T3x Hunter is designed for the shooter who appreciates the warm feel of a wooden stock combined with solid performance. The T3x Hunter offers an extensive caliber selection for hunting and sport-shooting purposes. It is built with traditional principles and modern innovation, providing you with a new level of accuracy, reliability, and enjoyment",
+    image: require("../../images/guns/rifles/hunting/tkjrtxa318-1.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/tkjrtxa318-1.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/tkjrtxa318-1.jpg"),
+    
+  },
+  {
+    id: 1251,
+    title:
+      " TIKKA JRTXA320 T3X HUNTER 3006 ",
+    price: 843,
+    description:
+      "The Tikka T3x Hunter is designed for the shooter who appreciates the warm feel of a wooden stock combined with solid performance. The T3x Hunter offers an extensive caliber selection for hunting and sport-shooting purposes. It is built with traditional principles and modern innovation, providing you with a new level of accuracy, reliability, and enjoyment. ",
+    image: require("../../images/guns/rifles/hunting/tkjrtxa320-1.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/tkjrtxa320-1.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/tkjrtxa320-1.jpg"),
+    
+  },
+  {
+    id: 1252,
+    title:
+      "  BRN 035-208216 XBLT HNTR 7MM08 SAT",
+    price:843 ,
+    description:
+      " Action: Bolt - Caliber: 7mm-08 Rem - Capacity: 4 - Material: Matte Blued Steel - Stock: Satin Black Walnut - Length of Pull: 13.625 - Twist: 1:9.5 - Barrel Length: 22 - Overall Length: 42 - Weight: 6 lb 8 oz",
+    image: require("../../images/guns/rifles/hunting/bro-035208216.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035208216.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035208216.jpg"),
+    
+  },
+  {
+    id: 1253,
+    title:
+      " BRN 035-208218 XBLT HNTR 308 SAT ",
+    price: 853,
+    description:
+      " Action: Bolt - Caliber: 308 Win - Capacity: 4 - Material: Matte Blued Steel - Stock: Satin Black Walnut - Length of Pull: 13.625 - Twist: 1:12 - Barrel Length: 22 - Overall Length: 42 - Weight: 6 lb 8 oz",
+    image: require("../../images/guns/rifles/hunting/bro-035208218.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035208218.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035208218.jpg"),
+    
+  },
+  {
+    id: 1254,
+    title:
+      " BRN 035-208223 XBLT HNTR 2506 SAT ",
+    price: 853,
+    description:
+      " Action: Bolt - Caliber: 308 Win - Capacity: 4 - Material: Matte Blued Steel - Stock: Satin Black Walnut - Length of Pull: 13.625 - Twist: 1:12 - Barrel Length: 22 - Overall Length: 42 - Weight: 6 lb 8 oz",
+    image: require("../../images/guns/rifles/hunting/bro-035208218.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035208218.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035208218.jpg"),
+    
+  },
+  {
+    id: 1255,
+    title:
+      " BRN 035-208224 XBLT HNTR 270 SAT ",
+    price: 826,
+    description:
+      "Action: Bolt - Caliber: 270 Win - Capacity: 4 - Material: Matte Blued Steel - Stock: Satin Black Walnut - Length of Pull: 13.625 - Twist: 1:10 - Barrel Length: 22 - Overall Length: 42.75 - Weight: 6 lb 14 oz ",
+    image: require("../../images/guns/rifles/hunting/bro-035208224.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035208224.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035208224.jpg"),
+    
+  },
+  {
+    id: 1256,
+    title:
+      "  BRN 035-208225 XBLT HNTR 280 SAT",
+    price: 845,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/hunting/bro-035208225.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035208225.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035208225.jpg"),
+    
+  },
+  {
+    id: 1257,
+    title:
+      " BRN 035-208227 XBLT HNTR 7MM SAT ",
+    price: 843,
+    description:
+      " Action: Bolt - Caliber: 7mm Rem Mag - Capacity: 3 - Material: Matte Blued Steel - Stock: Satin Black Walnut - Length of Pull: 13.625 - Twist: 1:9.5 - Barrel Length: 26 - Overall Length: 46.75 - Weight: 7 lb",
+    image: require("../../images/guns/rifles/hunting/bro-035208227.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035208227.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035208227.jpg"),
+    
+  },
+  {
+    id: 1258,
+    title:
+      "  BROWNING X-BOLT HUNTER 22-250 REMINGTON 22'' BARREL 4+1 BLACK WALNUT STOCK/BLUED 035342209",
+    price: 856,
+    description:
+      "Action: Bolt - Caliber: 22-250 Rem - Capacity: 4 - Finish: Blued - Stock: Black Walnut - Twist: 1:9 - Barrel Length: 22 - Overall Length: 41.5 - Weight: 6 lb 6 oz ",
+    image: require("../../images/guns/rifles/hunting/bro-035342209.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035342209.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035342209.jpg"),
+    
+  },
+  {
+    id: 1259,
+    title:
+      "  BROWNING A-BOLT III HUNTER 243WIN 22'' BARREL 5+1 BLACK WALNUT STOCK/STEEL 035801211",
+    price:567 ,
+    description:
+      " Action: Short Action - Caliber: 243 Win - Capacity: 5 - Barrel Length: 22 - Overall Length: 42 - Length of Pull: 13 5/8 - Drop at Comb: 11/16 - Drop at Heel: 1/2 - Weight: 6 lbs 13 oz - Twist Rate: 1 in 10 - Stock Finish: Satin - Material: Steel - Stock Material: Black Walnut - Drilled and Tapped for Scope: Yes",
+    image: require("../../images/guns/rifles/hunting/bro-035801211.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035801211.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035801211.jpg"),
+    
+  },
+  {
+    id: 1260,
+    title:
+      "  BROWNING A-BOLT III HUNTER 7MM-08 REMINGTON 22'' BARREL 5+1 SATIN WALNUT STOCK/MATTE BLUED 035801216",
+    price:567 ,
+    description:
+      " Action: Short Action - Caliber: 243 Win - Capacity: 5 - Barrel Length: 22 - Overall Length: 42 - Length of Pull: 13 5/8 - Drop at Comb: 11/16 - Drop at Heel: 1/2 - Weight: 6 lbs 13 oz - Twist Rate: 1 in 10 - Stock Finish: Satin - Material: Steel - Stock Material: Black Walnut - Drilled and Tapped for Scope: Yes",
+    image: require("../../images/guns/rifles/hunting/bro-035801211.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035801211.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035801211.jpg"),
+    
+  },
+  {
+    id: 1261,
+    title:
+      "BROWNING A-BOLT III HUNTER 270WIN 22'' BARREL 4+1 SATIN WALNUT STOCK/MATTE BLUED 035801224  ",
+    price:534 ,
+    description:
+      " Action: Bolt - Caliber: 270 Win - Capacity: 4 - Length of Pull: 13 5/8 - Drop at Comb: 11/16 - Drop at Heel: 1/2 - Twist Rate: 1:10 - Barrel Finish: Matte Blued - Stock Finish: Satin - Drilled and Tapped for Scope: Yes - Barrel Length: 22 - Overall Length: 42 3/4 - Weight: 7 lbs 2 oz",
+    image: require("../../images/guns/rifles/hunting/bro-035801224.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035801224.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035801224.jpg"),
+    
+  },
+  {
+    id: 1262,
+    title:
+      " BROWNING A-BOLT III HUNTER 30-06 SPRINGFIELD 22'' BARREL 4+1 SATIN WALNUT STOCK/MATTE BLUED 035801226 ",
+    price: 596,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/hunting/bro-035801226.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035801226.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035801226.jpg"),
+    
+  },
+  {
+    id: 1263,
+    title:
+      "  BROWNING A-BOLT III HUNTER 7MM REMINGTON MAGNUM 26'' BARREL 3+1 SATIN WALNUT STOCK/MATTE BLUED 035801227",
+    price: 595,
+    description:
+      " Action: Bolt - Caliber: 7mm Rem Mag - Capacity: 3 - Length of Pull: 13 5/8 - Drop at Comb: 5/8 - Drop at Heel: 1/2 - Twist Rate: 1 in 9 1/2 - Barrel Finish: Matte Blued - Stock Finish: Satin - Drilled and Tapped for Scope: Yes - Barrel Length: 26 - Overall Length: 46 3/4 - Weight: 7 lbs 6 oz",
+    image: require("../../images/guns/rifles/hunting/bro-035801227.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035801227.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035801227.jpg"),
+    
+  },
+  {
+    id: 1264,
+    title:
+      "  BROWNING A-BOLT III HUNTER 300WIN MAGNUM 26'' BARREL 3+1 SATIN WALNUT STOCK/MATTE BLUED 035801229",
+    price: 598,
+    description:
+      "Action Length: Long Action - Caliber: 300 Win Mag - Capacity: 3 - Length of Pull: 13 5/8 - Drop at Comb: 11/16 - Drop at Heel: 1/2 - Twist Rate: 1 in 10 - Barrel Finish: Matte Blued - Stock Finish: Satin - Drilled and Tapped for Scope: Yes - Barrel Length: 26 - Overall Length: 46 3/4 - Weight: 7 lbs 5 oz ",
+    image: require("../../images/guns/rifles/hunting/bro-035801229.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035801229.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035801229.jpg"),
+    
+  },
+  {
+    id: 1265,
+    title:
+      " BROWNING A-BOLT III HUNTER 300WSM 23'' BARREL 3+1 SATIN WALNUT STOCK/MATTE BLUED 035801246 ",
+    price: 598,
+    description:
+      " Action Length: Short Action - Caliber: 300 WSM - Capacity: 3 - Length of Pull: 13 5/8 - Drop at Comb: 5/8 - Drop at Heel: 1/2 - Twist Rate: 1:10 - Barrel Finish: Matte Blued - Stock Finish: Satin - Drilled and Tapped for Scope: Yes - Barrel Length: 23 - Overall Length: 43 - Weight: 6 lbs 13 oz",
+    image: require("../../images/guns/rifles/hunting/bro-035801246.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035801246.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035801246.jpg"),
+    
+  },
+  {
+    id: 1266,
+    title:
+      " BROWNING A-BOLT III HUNTER 270WSM 23'' BARREL 3+1 SATIN WALNUT STOCK/MATTE BLUED 035801248 ",
+    price: 596,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/hunting/bro-035801248.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/bro-035801248.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/bro-035801248.jpg"),
+    
+  },
+  {
+    id: 1267,
+    title:
+      "SAV 19713 11 TH XP 308 LH YTH W/NIK  ",
+    price: 547,
+    description:
+      "Action: Bolt - Caliber: 308 Win - Finish: Matte Black - Stock: Black Synthetic - Scope: Nikon 3-9x40 BDC Reticle - Barrel Length: 20 - LEFT HANDED ",
+    image: require("../../images/guns/rifles/hunting/sav-19713.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19713.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19713.jpg"),
+    
+  },
+  {
+    id: 1268,
+    title:
+      " SAV 19712 11 TH XP 7MM08 LH YTH W/NIK ",
+    price: 619,
+    description:
+      " Action: Bolt - Caliber: 7mm-08 - Finish: Matte Black - Stock: Black Synthetic - Scope: Nikon 3-9x40 BDC Reticle - Barrel Length: 20 - LEFT HANDED",
+    image: require("../../images/guns/rifles/hunting/sav-19712.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19712.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19712.jpg"),
+    
+  },
+  {
+    id: 1269,
+    title:
+      " SAV 19699 11 TH XP 260REM LH W/NIK ",
+    price:546 ,
+    description:
+      " This Savage 11/111 Trophy Hunter XP bolt action rifle features the user-adjustable AccuTrigger, silky smooth bolt operation, and a button rifled carbon steel barrel. It has a rugged synthetic black stock and a detachable box magazine. The XP features a mounted and boresighted Nikon 3-9x40 BDC reticle scope. This model is configured for left-handed shooters.",
+    image: require("../../images/guns/rifles/hunting/sav-19699.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19699.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19699.jpg"),
+    
+  },
+  {
+    id: 1270,
+    title:
+      " SAV 19693 11 TH XP 223 LH W/NIK ",
+    price: 543,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/hunting/sav-19693.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19693.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19693.jpg"),
+    
+  },
+  {
+    id: 1271,
+    title:
+      " SAV 19689 111 TH XP 270 W/NIK ",
+    price: 536,
+    description:
+      " Action: Bolt - Caliber: 270 Win - Capacity: 4 - Finish: Matte Black - Stock: Black Synthetic - Scope: Nikon 3-9x40 BDC Reticle - Twist: 1:10 - Barrel Length: 22 - Overall Length: 42.5 - Weight: 8 lb",
+    image: require("../../images/guns/rifles/hunting/sav-19689.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19689.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19689.jpg"),
+    
+  },
+  {
+    id: 1272,
+    title:
+      "  SAV 19688 111 TH XP 6.5X284 W/NIK",
+    price: 534,
+    description:
+      " Action: Bolt - Caliber: 6.5x284 NORMA - Capacity: 4 - Finish: Matte Black - Stock: Black Synthetic - Scope: Nikon 3-9x40 BDC Reticle - Twist: 1:8 - Barrel Length: 24 - Overall Length: 42.5 - Weight: 8 lb",
+    image: require("../../images/guns/rifles/hunting/sav-19688.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19688.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19688.jpg"),
+    
+  },
+  {
+    id: 1273,
+    title:
+      " SAV 19682 11 TH XP 260REM W/NIK ",
+    price: 539,
+    description:
+      " This Savage 11/111 Trophy Hunter XP bolt action rifle features a synthetic black stock and comes with a mounted and boresighted Nikon 3-9x40 BDC reticle scope. It also features an AccuTrigger, detachable box magazine, and a matte black carbon steel barrel.",
+    image: require("../../images/guns/rifles/hunting/sav-19682.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19682.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19682.jpg"),
+    
+  },
+  {
+    id: 1274,
+    title:
+      " SAV 19678 11 TH XP 22-250 W/NIK ",
+    price: 619,
+    description:
+      " Action: Bolt - Caliber: 22-250 - Capacity: 4 - Finish: Matte Black - Stock: Black Synthetic - Scope: Nikon 3-9x40 BDC Reticle - Twist: 1:10 - Barrel Length: 22 - Overall Length: 42.5 - Weight: 8 lb",
+    image: require("../../images/guns/rifles/hunting/sav-19678.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19678.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19678.jpg"),
+    
+  },
+  {
+    id: 1275,
+    title:
+      " SAV 19677 11 TH XP 204RUG W/NIK      ",
+    price: 619,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/hunting/sav-19677.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19677.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19677.jpg"),
+    
+  },
+  {
+    id: 1276,
+    title:
+      "SAV 19659 111 LADY HNTR 270 ",
+    price: 751,
+    description:
+      " The 11/111 Lady Hunter has an oil-finished American Walnut stock with a lady-specific geometry. It features a detachable box magazine, a matte black carbon steel barrel, and has a AccuTrigger.",
+    image: require("../../images/guns/rifles/hunting/sav-19660.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19660.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19660.jpg"),
+    
+  },
+  {
+    id: 1277,
+    title:
+      "SAV 19660 111 LADY HNTR 30-06  ",
+    price: 751,
+    description:
+      " The 11/111 Lady Hunter has an oil-finished American Walnut stock with a lady-specific geometry. It features a detachable box magazine, a matte black carbon steel barrel, and has a AccuTrigger.",
+    image: require("../../images/guns/rifles/hunting/sav-19660.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19660.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19660.jpg"),
+    
+  },
+  {
+    id: 1277,
+    title:
+      "SAV 19658 11 LADY HNTR 308 ",
+    price: 751,
+    description:
+      " The 11/111 Lady Hunter has an oil-finished American Walnut stock with a lady-specific geometry. It features a detachable box magazine, a matte black carbon steel barrel, and has a AccuTrigger.",
+    image: require("../../images/guns/rifles/hunting/sav-19658.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19658.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19658.jpg"),
+    
+  },
+  {
+    id: 1278,
+    title:
+      " SAV 19211 111LWH DBM 3006 ",
+    price:847 ,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/hunting/sav-19211.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19211.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19211.jpg"),
+    
+  },
+  {
+    id: 1279,
+    title:
+      " SAV 19209 11LWH DBM 308 ",
+    price: 847,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/hunting/sav-19209.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19209.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19209.jpg"),
+    
+  },
+  {
+    id: 1280,
+    title:
+      " SAV 19206 11LWH DBM 243 ",
+    price: 845,
+    description:
+      " The 11 Lightweight Hunter is drilled and tapped for scope mounts, and features a barrel made of carbon steel with a matte black finish. It stock is constructed of an oil finished american walnut.",
+    image: require("../../images/guns/rifles/hunting/sav-19206.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19206.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19206.jpg"),
+    
+  },
+  {
+    id: 1281,
+    title:
+      " RUGER HAWKEYE HUNTER 6.5 CREEDMOOR 24'' 4+1 47170 ",
+    price:1126 ,
+    description:
+      " Caliber: 6.5 Creedmoor - Stock: Natural Gear Camo Laminate - Sights: None - Barrel Length: 24 - Material: Stainless Steel - Thread Pattern: 1/2-24 - Twist: 1:8 RH - Capacity: 4 - Finish: Hawkeye Matte Stainless - Weight: 7.6 lbs. - Overall Length: 43.25-44.75 - Length of Pull: 12.75-14.25 - Grooves: 6 - Non-rotating Mauser-type controlled round feed extractor is the most positive case extraction system ever invented and features a fixed blade-type ejector that positively ejects the empty cases as the bolt is moved fully rearward. - Hinged solid-steel floorplate for easy unloading without having to chamber each cartridge. Features an engraved FTW logo and patented latch that is flush with the trigger guard to avoid accidental dumping of cartridges. - Three-position safety is easily accessible and allows the shooter to lock the bolt or to load and unload the rifle with the safety engaged. - Cold hammer-forged barrel results in ultra-precise rifling that provides exceptional accuracy longevity and easy cleaning. - Patented integral scope mounts machined directly on the solid-steel receiver provide a stable mounting surface for scope rings eliminating a potential source of looseness and inaccuracy in the field (scope rings included). - Ergonomically pleasing stock features a soft rubber buttpad with buttpad spacers that allow the rifle to be properly sized for different shooters or varying levels of outerwear (three 1/2 spacers included). - Also includes: rugged one-piece stainless steel bolt; studs for mounting sling swivels. - The Ruger",
+    image: require("../../images/guns/rifles/hunting/rug-47170.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/rug-47170.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/rug-47170.jpg"),
+    
+  },
+  {
+    id: 1282,
+    title:
+      " REM 84165 700 M40 LR 300 RUM BLK/GRY ",
+    price: 751,
+    description:
+      " From extended-range big game hunting to printing one-ragged-hole groups from the bench, no rifle delivers like the Model 700. The Model 700 Long Range combines the added stability of a 26\" heavy varmint barrel with hard-hitting, long-action chamberings to stretch your lethal range. It has a Bell and Carlson M40 Tactical synthetic stock with dual front swivel studs for a sling and bipod. The 700 Long Range also utilizes an aluminum bedding block for ultimate accuracy and Remington\'s X-Mark Pro externally adjustable trigger, factory set at 3.5 lbs.",
+    image: require("../../images/guns/rifles/hunting/rem-84165.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/rem-84165.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/rem-84165.jpg"),
+    
+  },
+  {
+    id: 1283,
+    title:
+      " REM 84163 700 M40 LR 7MM MAG BLK/GRY ",
+    price: 751,
+    description:
+      "From extended-range big game hunting to printing one-ragged-hole groups from the bench, no rifle delivers like the Model 700. The Model 700 Long Range combines the added stability of a 26\" heavy varmint barrel with hard-hitting, long-action chamberings to stretch your lethal range. It has a Bell and Carlson M40 Tactical synthetic stock with dual front swivel studs for a sling and bipod. The 700 Long Range also utilizes an aluminum bedding block for ultimate accuracy and Remington\'s X-Mark Pro externally adjustable trigger, factory set at 3.5 lbs. ",
+    image: require("../../images/guns/rifles/hunting/rem-84163.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/rem-84163.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/rem-84163.jpg"),
+    
+  },
+  {
+    id: 1284,
+    title:
+      " TCA 28205744 ENC P/H XT 50C BLK ",
+    price:709 ,
+    description:
+      "Thompson Centers Encore Pro Hunter XT features Speed Breech XT and the Flex Tech System. The Flex Tech is a patented recoil management system that takes the bite out of muzzle rise. The stainless steel barrel and receiver both have a corrosion resistant Weather Shield finish and the barrel is interchangeable. This model has a Flex Tech black stock and a 28\" stainless steel barrel. ",
+    image: require("../../images/guns/rifles/hunting/gb-tc28205744-1_2.png"),
+    imageHover: require("../../images/guns/rifles/hunting/gb-tc28205744-1_2.png"),
+    quickView: require("../../images/guns/rifles/hunting/gb-tc28205744-1_2.png"),
+    
+  },
+  {
+    id: 1285,
+    title:
+      " TCA 28203996 PRO-HUNTER KATAHDIN CARBINE 460 S&W ",
+    price: 754,
+    description:
+      " The Encore Pro Hunter was originally developed for hunting moose in the thick cedar swamps of northern Maine. Its fast handling, compact design is ideal for hunting large game in the brush country. The combination of its 20\" barrel, adjustable rear peep sight, and fiber-optic front sight teamed with hard-hitting caliber clearly demonstrate its brush-busting capabilities. All of this in a 7 pound, 34.5\" package that includes a recoil-taming Flex-Tech stock and Simms recoil pad, the Pro Hunter Katahdin handles and shoots as good as it looks. This model is chambered in 460 Smith & Wesson Magnum.",
+    image: require("../../images/guns/rifles/hunting/tca28203996_1_1.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/tca28203996_1_1.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/tca28203996_1_1.jpg"),
+    
+  },
+  {
+    id: 1286,
+    title:
+      " SAV 22206 11TH XP 243 YTH MGC W/NIK ",
+    price: 524,
+    description:
+      " Action: Bolt - Caliber: 243 Win - Capacity: 4 - Finish: Matte Black - Stock: Muddy Girl Camo Synthetic - Scope: Nikon 3-9x40mm BDC Reticle - Twist: 1:9.25 - Barrel Length: 20 - Overall Length: 39.5 - Weight: 7 lb",
+    image: require("../../images/guns/rifles/hunting/sav-19206.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19206.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19206.jpg"),
+    
+  },
+  {
+    id: 1287,
+    title:
+      "SAV 22205 11TH XP 223 YTH MGC W/NIK  ",
+    price: 550,
+    description:
+      " Action: Bolt - Caliber: 223 Rem- Capacity: 4 - Finish: Matte Black - Stock: Muddy Girl Camo Synthetic - Scope: Nikon 3-9x40mm BDC Reticle - Twist: 1:9 - Barrel Length: 20 - Overall Length: 39.5 - Weight: 7 lb",
+    image: require("../../images/guns/rifles/hunting/sav-22205.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-22205.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-22205.jpg"),
+    
+  },
+  {
+    id: 1289,
+    title:
+      " SAVAGE 111 TROPHY HUNTER XP 338WIN MAGNUM 24'' BARREL W/ NIKON SCOPE 3+1 MATTE BLACK 19795 ",
+    price: 536,
+    description:
+      "Action: Bolt - Caliber: 338 Win Mag - Capacity: 3 - Finish: Matte Black - Stock: Black Synthetic - Scope: Nikon 3-9x40 BDC Reticle - Barrel Length: 24 - Overall Length: 44.5 - Weight: 8.25 lb ",
+    image: require("../../images/guns/rifles/hunting/sav-19795.jpg"),
+    imageHover: require("../../images/guns/rifles/hunting/sav-19795.jpg"),
+    quickView: require("../../images/guns/rifles/hunting/sav-19795.jpg"),
+    
+  },
+  
 
 ];
 
@@ -562,6 +2006,391 @@ export const rftactical= [
     image: require("../../images/guns/rifles/tactical/52136_1.jpg"),
     imageHover: require("../../images/guns/rifles/tactical/52136_1.jpg"),
     quickView: require("../../images/guns/rifles/tactical/52136_1.jpg"),
+    
+  },
+  {
+    id: 1290,
+    title:
+      " REM 84475 700 MDT TC21 300 24 MB ",
+    price: 2581,
+    description:
+      "The Model 700 Tactical Chassis is equipped with a MDT TAC21 chassis with a lightweight ergonomic design made of MIl-Spec Type III anodized aluminum with a full length top rail. It has a stainless steel barreled action with black cerakote finish, varmint profile barrel with an AAC 51-T ratchet mount muzzle brake, target tactical bolt handle, and a fully adjustable PRS stock and pistol grip. It features Remington\'s X-Mark Pro externally adjustable trigger which is factory set to 3.5 lbs. This rifle ships in a hard case. ",
+    image: require("../../images/guns/rifles/tactical/90810_2.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/90810_2.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/90810_2.jpg"),
+    
+  },
+  {
+    id: 1291,
+    title:
+      "  FN 3848950440 PS90 STD 57X28 10R BLK",
+    price: 1304.62,
+    description:
+      " The PS90 provides a compact, lightweight and completely ambidextrous firearm capable of fulfilling numerous security, personal defense, competition and recreational shooting roles. Fired cases are ejected downward where they cannot interfere with the user. The extended 16.04\" barrel and closed bolt operation give the PS90 outstanding accuracy, while the non magnifying optical sight makes it easy to locate and stay on a target. Recoil is reduced by the integral muzzle break.",
+    image: require("../../images/guns/rifles/tactical/77541_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/77541_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/77541_1.jpg"),
+    
+  },
+  {
+    id: 1292,
+    title:
+      "  S&W M&P15 223 REM/5.56NATO 16'' BARREL 30+1 811024",
+    price: 1404.62,
+    description:
+      " S&W M&P15 Rifle is the ideal modern sporting rifle. It is versatile, reliable, and built to perform multiple uses under various conditions. It is also lightweight and rugged which embodies the best combination of function and form. The M&P15 TS has a 4150 steel/7075 T6 aluminum alloy barrel with a vortex flash-hider and Armornite finish, 13\" Troy TRX Extreme hand guard, folding Magpul MBUS front and rear sights, Magpul MOE stock, PMAG Magazine and Magpul MOE Grip.",
+    image: require("../../images/guns/rifles/tactical/72057_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/72057_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/72057_1.jpg"),
+    
+  },
+  {
+    id: 1293,
+    title:
+      "  RUG 6803 SCOUT 308 BL",
+    price: 1000.62,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/tactical/73924_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/73924_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/73924_1.jpg"),
+    
+  },
+  {
+    id: 1294,
+    title:
+      " KEL-TEC CMR-30 22 MAGNUM 16.1'' BARREL 30+1 BLACK CMR30 ",
+    price: 594.62,
+    description:
+      " Designed for compact, lightweight, low recoil accuracy, the CMR-30™ features a single action trigger, bolt stop, ambidextrous safety levers and magazine catch similar to the popular PMR-30 pistol. It also uses the same 30 round, .22WMR magazine. A collapsible stock reduces its 30.6 inch overall length to 22.7 inches. The CMR-30 will redefine your idea of accuracy. Kel-Tec took their popular PMR-30 and designed a carbine version – the CMR-30 .22 WMR Rifle. The 30rd magazine, single-action trigger, bolt stop, ambidextrous safety and magazine catch are identical to those used on the pistols. 16'' barrel has a 1:16'' rate-of-twist rifling and is threaded 1/2''-28 to accept muzzle attachments. Top Picatinny rail and removable lower Picatinny rail. Magpul flip-up sights. CMR30 22Mag",
+    image: require("../../images/guns/rifles/tactical/74683.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/74683.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/74683.jpg"),
+    
+  },
+  {
+    id: 1295,
+    title:
+      "  RUG 5855 M-14/5P 223 BLKSYN 5R",
+    price: 880.62,
+    description:
+      "The Mini-14 Ranch rifle offers inherent accuracy and quick repeat shot capability which makes it the favorite of ranchers and outdoorsmen. Its Garand-style action with breechbolt locking system, is a fixed-piston gas system and self-cleaning which gives unparalleled reliability under harsh operating conditions. The steel receiver is drilled and tapped, has a Picatinny rail and integral scope mounts that provides a stable mounting surface. The Mini-14 Ranch also has a cold hammer-forged barrel and ghost ring adjustable rear and blade front sights. Included are two magazines, Picatinny rail; scope rings. ",
+    image: require("../../images/guns/rifles/tactical/75957_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/75957_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/75957_1.jpg"),
+    
+  },
+  {
+    id: 1296,
+    title:
+      "SAV 19481 110FCP 338LAP HSP STOCK  ",
+    price: 1463,
+    description:
+      " Savage Arms\' 10/110 FCP HS Precision rifle features an H-S Precision black synthetic stock, 1-piece Picatinny rail for mounting optics, and Savage\'s user-adjustable AccuTrigger. This 338 Lapua Magnum has a fluted, 26\" carbon steel heavy barrel with a muzzle brake, and a 5-round detachable box magazine.",
+    image: require("../../images/guns/rifles/tactical/76653_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/76653_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/76653_1.jpg"),
+    
+  },
+  {
+    id: 1297,
+    title:
+      "  MOSS 37205 715 FTOP 22 ADJ STOCK 10RD",
+    price: 257,
+    description:
+      " These Mossberg Flat Top Tactical 22 provide the look, feel and excitement of the AR platform, built around their proven and dependable 22 long rifle autoloader. Featuring an 16.25\" blued barrel with a 1:16\" RH twist and removeable muzzle brake. The magazine is detachable and has a capacity of 10 or 25 rounds. The 25 round models comes with an accessory magazine loading cap. The stocks are available in fixed or adjustable. The adjustable model will adjust nearly 4\" to accommodate smaller frame shooters. All models feature a Picatinny quad rail forend for customizing your rifle with an endless array of available tactical accessories.",
+    image: require("../../images/guns/rifles/tactical/76657_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/76657_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/76657_1.jpg"),
+    
+  },
+  {
+    id: 1298,
+    title:
+      " WIND R16A4T HBC 223 16 30R ",
+    price: 864.62,
+    description:
+      " Windham Weaponry .223/5.56mm Model R16A4T has a M4A3 flat top upper receiver and detachable rear sight/carrying handle. Chromed 16\" barrel made of 4150 steel in M4 contour or heavy barrel. M4 double heat shield hand guards. with 6 position telescoping buttstock and aluminum trigger guard. Fixed front sight.",
+    image: require("../../images/guns/rifles/tactical/77543_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/77543_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/77543_1.jpg"),
+    
+  },
+ 
+  {
+    id: 1299,
+    title:
+      " WIND R16M4FTT SRC 223 16 RL 30R ",
+    price: 304.62,
+    description:
+      "Windham Weaponry\'s SRC (Sight Ready Carbine) features a chrome-lined 16\" 4150 chrome moly vanadium steel barrel with M4 feed ramps. The 7075 T6 aircraft aluminum receiver sports a durable black hardcoat anodized finish. The rifle features an aluminum trigger guard, M4 double heat shield handguards and is optic ready. This rifle is available with Magpul MOE furniture in multiple finishes. ",
+    image: require("../../images/guns/rifles/tactical/77545_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/77545_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/77545_1.jpg"),
+    
+  },
+  {
+    id: 1300,
+    title:
+      "  S&W M&P15 300 BLACKOUT/WHISPER 16'' BARREL 10+1 811300",
+    price: 1004.62,
+    description:
+      " S&W M&P15 Rifle is the ideal modern sporting rifle. It is versatile, reliable, and built to perform multiple uses under various conditions. It is also lightweight and rugged which embodies the best combination of function and form. The M&P15 Carbine features a 4140 steel threaded barrel with a Armornite finish, gas block with integral Picatinny-style rail, and a manual safety. This model has a Realtree APG furniture finish.",
+    image: require("../../images/guns/rifles/tactical/77965_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/77965_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/77965_1.jpg"),
+    
+  },
+  {
+    id: 1301,
+    title:
+      "  MOSS 37232 715 FTOP 22 ADJ R-DOT 10RD",
+    price: 304.62,
+    description:
+      "These Mossberg Flat Top Tactical 22 provide the look, feel and excitement of the AR platform, built around their proven and dependable 22 long rifle autoloader. Featuring an 16.25\" blued barrel with a 1:16\" RH twist and removeable muzzle brake. The magazine is detachable and has a capacity of 10 or 25 rounds. The 25 round models comes with an accessory magazine loading cap. The stocks are available in fixed or adjustable. The adjustable model will adjust nearly 4\" to accommodate smaller frame shooters. All models feature a Picatinny quad rail forend for customizing your rifle with an endless array of available tactical accessories. ",
+    image: require("../../images/guns/rifles/tactical/79828_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/79828_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/79828_1.jpg"),
+    
+  },
+  {
+    id: 1302,
+    title:
+      "  MOSS 37234 715 FTOP 22 ADJ R-DOT 25RD",
+    price: 308.62,
+    description:
+      " These Mossberg Flat Top Tactical 22 provide the look, feel and excitement of the AR platform, built around their proven and dependable 22 long rifle autoloader. Featuring an 16.25\" blued barrel with a 1:16\" RH twist and removeable muzzle brake. The magazine is detachable and has a capacity of 10 or 25 rounds. The 25 round models comes with an accessory magazine loading cap. The stocks are available in fixed or adjustable. The adjustable model will adjust nearly 4\" to accommodate smaller frame shooters. All models feature a Picatinny quad rail forend for customizing your rifle with an endless array of available tactical accessories.",
+    image: require("../../images/guns/rifles/tactical/79830_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/79830_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/79830_1.jpg"),
+    
+  },
+  {
+    id: 1303,
+    title:
+      " ROCK AR1201 TAC CAR A4 16 223 ",
+    price: 304.62,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/tactical/81859_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/81859_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/81859_1.jpg"),
+    
+  },
+  {
+    id: 1304,
+    title:
+      "  WIND R16M4LHRFT MPC 223 16 30R",
+    price: 869.62,
+    description:
+      " This MPC-RF semi-automatic has a gas impingement system with a manual safety lever and indicator markings on both sides of the receiver. The M4A4-type flat top upper receiver is made of forged 7075 T6 aircraft aluminum with an aluminum trigger guard and a hard coat black anodize finish. The 16\" barrel is made of chrome-lined 4150 chrome moly vanadium steel with an M4 profile and A2 flash suppressor. It has a 6-position telescoping buttstock with M4 Double Heat Shield hand guards and a black plastic grip. It has an adjustable-height square post in a standard A2 front sight base, and this RF model MPC rifle features a removable Diamond head rear flip sight.",
+    image: require("../../images/guns/rifles/tactical/84209_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/84209_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/84209_1.jpg"),
+    
+  },
+  {
+    id: 1305,
+    title:
+      " COLT AR15A4 RFL 5.56 20 30R MT ",
+    price: 1049,
+    description:
+      " Colt\'s model AR15A4 semi-automatic rifle is chambered for 5.56 NATO (223 Remington) and has a has a 20\" barrel. This model has a black A2-style stock and black metal finish. It comes with a detachable carry handle and a 30-round PMAG Magazine.",
+    image: require("../../images/guns/rifles/tactical/84310_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/84310_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/84310_1.jpg"),
+    
+  },
+  {
+    id: 1306,
+    title:
+      "  RUG 6821 SCOUT 308 18 LH SS",
+    price: 1064.62,
+    description:
+      " Ruger\'s Gunsite Scout Rifle is developed with Gunsite, and is \"Gunsite Approved\" and features the Gunsite name rollmarked on the receiver. It has a forward-mounted Picatinny rail which allows for the mounting of modern optics and a built-in, accurate sighting system with ghost ring adjustable rear aperture sight and a non-glare, blade front sight. Patented integral scope mounts, are machined directly on the solid-steel receiver which provides a stable mounting surface. The non-rotating, Mauser-type controlled round feed extractor features a fixed blade-type ejector that positively ejects the empty cases as the bolt is moved fully rearward. The Gunsite Scout Rifle also has a free-floated, cold hammer-forged barrel with ultra-precise rifling, three-position safety, sling swivel studs, detachable box magazine with push-forward magazine release, and a soft rubber buttpad with buttpad spacers. Included are scope rings and three .5\" spacers. This left handed model has a 18\" stainless steel barrel, black laminate stock, and Gunsite engraved on the grip cap.",
+    image: require("../../images/guns/rifles/tactical/84857_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/84857_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/84857_1.jpg"),
+    
+  },
+  {
+    id: 1307,
+    title:
+      " RUG 6822 SCOUT 308 18 SS ",
+    price: 304.62,
+    description:
+      " Ruger\'s Gunsite Scout Rifle is developed with Gunsite, and is \"Gunsite Approved\" and features the Gunsite name rollmarked on the receiver. It has a forward-mounted Picatinny rail which allows for the mounting of modern optics and a built-in, accurate sighting system with ghost ring adjustable rear aperture sight and a non-glare, blade front sight. Patented integral scope mounts, are machined directly on the solid-steel receiver which provides a stable mounting surface. The non-rotating, Mauser-type controlled round feed extractor features a fixed blade-type ejector that positively ejects the empty cases as the bolt is moved fully rearward. The Gunsite Scout Rifle also has a free-floated, cold hammer-forged barrel with ultra-precise rifling, three-position safety, sling swivel studs, detachable box magazine with push-forward magazine release, and a soft rubber buttpad with buttpad spacers. Included are scope rings and three .5\" spacers. Thisnmodel has a 18\" stainless steel barrel, black laminate stock, and Gunsite engraved on the grip cap.",
+    image: require("../../images/guns/rifles/tactical/84858_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/84858_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/84858_1.jpg"),
+    
+  },
+  {
+    id: 1308,
+    title:
+      "  RUG 5819 KM-14/20GBCP 223 16 SSMAT",
+    price: 304.62,
+    description:
+      " The Mini-14 Tactical rifle offers inherent accuracy and quick repeat shot capability. Its Garand-style action with breechbolt locking system, is a fixed-piston gas system and self-cleaning which gives unparalleled reliability under harsh operating conditions. The steel receiver is drilled and tapped, has a Picatinny rail, and integral scope mounts that provides a stable mounting surface. The Mini-14 Tactical also has a cold hammer-forged, threaded barrel and ghost ring adjustable rear and blade front sights. Included are two magazines and scope rings. This model has a 16.12\" stainless steel threaded barrel with a flash suppressor and a black synthetic stock.",
+    image: require("../../images/guns/rifles/tactical/85210_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/85210_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/85210_1.jpg"),
+    
+  },
+  {
+    id: 1309,
+    title:
+      " S&W M&P10 308WIN/7.62NATO 18'' BARREL 10+1 *MD* 811311 ",
+    price: 1498,
+    description:
+      "Smith&Wesson\'s M&P10 Rifle is versatile, easily accessorized, and suitable for a wide variety of recreational, sport shooting and professional applications. This M&P features a mid-length gas system, lightweight barrel with an Armornite finish and an enhanced flash hider, black 6-position CAR stock and an optic ready black hard anodized aluminum receiver. It also has an ambidextrous safety, magazine and bolt release. ",
+    image: require("../../images/guns/rifles/tactical/85799_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/85799_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/85799_1.jpg"),
+    
+  },
+  {
+    id: 1310,
+    title:
+      "S&W M&P10 308WIN/7.62NATO 18'' 10+1 *CT/MA/MD/NJ*811310  ",
+    price: 1456,
+    description:
+      "Smith&Wesson\'s M&P10 Rifle is versatile, easily accessorized, and suitable for a wide variety of recreational, sport shooting and professional applications. This M&P features a mid-length gas system, lightweight barrel with an Armornite finish and an enhanced flash hider, black fixed stock and an optic ready black hard anodized aluminum receiver. It also has an ambidextrous safety, magazine and bolt release. ",
+    image: require("../../images/guns/rifles/tactical/85801_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/85801_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/85801_1.jpg"),
+    
+  },
+  {
+    id: 1311,
+    title:
+      "  S&W M&P 308WIN/7.62NATO 18'' BARREL 10+1 *MD/NJ* 811312",
+    price: 1549,
+    description:
+      "Smith&Wesson\'s M&P10 Rifle is versatile, easily accessorized, and suitable for a wide variety of recreational, sport shooting and professional applications. This M&P features a mid-length gas system, lightweight barrel with an Armornite finish and an enhanced flash hider, Magpul MOE stock and an optic ready aluminum receiver. It also has an ambidextrous safety, magazine and bolt release, and a Realtree APG metal finish. ",
+    image: require("../../images/guns/rifles/tactical/85802_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/85802_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/85802_1.jpg"),
+    
+  },
+  {
+    id: 1312,
+    title:
+      " CHIA CF500.090 M4 22LR CARBINE 28RD ",
+    price: 304.62,
+    description:
+      "The Gen-II Pro Series is an evolution of the M4 model, adding a 7.8\" free float aluminum forend with 8 position Picatinny rail. All other characteristics remain unvaried: 18.5\" heavy match, parkerized barrel, steel bolt, Mil-Spec components. It is available with a 10 or 28 round magazine ",
+    image: require("../../images/guns/rifles/tactical/88288_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/88288_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/88288_1.jpg"),
+    
+  },
+  {
+    id: 1313,
+    title:
+      "  S&W M&P10 308WIN/7.62NATO 18'' BARREL 20+1 BLACK 811308",
+    price: 1304.62,
+    description:
+      " Smith & Wesson M&P10 Rifle is versatile, easily accessorized, and suitable for a wide variety of recreational, sport and professional shooting. The barrel features 5R rifling, an Amornite finish, and a flash suppressor. It has a chromed firing pin, ambidextrous safety selector, magazine, and bolt release. The six-position stock has a sling swivel. This Optic Ready model has a 18\" barrel, Mid-Length handguard with a Picatinny-style rail, and a mid-length gas system.",
+    image: require("../../images/guns/rifles/tactical/90756_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/90756_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/90756_1.jpg"),
+    
+  },
+  {
+    id: 1314,
+    title:
+      " REM 84474 700 MDT TC21 308 24 MB ",
+    price: 2404.62,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/tactical/90810_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/90810_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/90810_1.jpg"),
+    
+  },
+  {
+    id: 1315,
+    title:
+      " BARR 14390 MRAD 300WIN 24IN FB FDE ",
+    price: 5304.62,
+    description:
+      " Barrett\'s MRAD adapts to a variety of user needs without sacrificing performance. With unfailing accuracy, this bolt-action system continues to define a whole new class of long-range precision rifles. It features a changeable barrel system that can be removed by simply loosening two bolts using a standard Torx wrench. Besides reducing maintenance and logistical burdens, this unique design allows for user level caliber interchangeability and serviceability with the MRAD rifle\'s barrel kits. The MRAD also features a fully adjustable match-grade trigger module, which is user accessible. The thumb-operated safety can be configured for left or right hand operation and its ambidextrous magazine release can be used intuitively while retaining a firing grip and cheek weld. Its forward receiver is drilled and tapped for accessory rails to be mounted at the 3, 6 and 9 o\'clock positions. The stock is foldable for enhanced portability yet locks in as solid as a fixed-stock rifle, creating a rigid platform for consistent firing. Is adjustable cheek piece also offers a consistent rifle-to-user contact point and is made of a temperature-resistant polymer.",
+    image: require("../../images/guns/rifles/tactical/90810_2.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/90810_2.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/90810_2.jpg"),
+    
+  },
+  {
+    id: 1316,
+    title:
+      " BARR 14394 MRAD 300WIN 24IN FB GREY ",
+    price: 5904.62,
+    description:
+      " Barrett\'s MRAD adapts to a variety of user needs without sacrificing performance. With unfailing accuracy, this bolt-action system continues to define a whole new class of long-range precision rifles. It features a changeable barrel system that can be removed by simply loosening two bolts using a standard Torx wrench. Besides reducing maintenance and logistical burdens, this unique design allows for user level caliber interchangeability and serviceability with the MRAD rifle\'s barrel kits. The MRAD also features a fully adjustable match-grade trigger module, which is user accessible. The thumb-operated safety can be configured for left or right hand operation and its ambidextrous magazine release can be used intuitively while retaining a firing grip and cheek weld. Its forward receiver is drilled and tapped for accessory rails to be mounted at the 3, 6 and 9 o\'clock positions. The stock is foldable for enhanced portability yet locks in as solid as a fixed-stock rifle, creating a rigid platform for consistent firing. Is adjustable cheek piece also offers a consistent rifle-to-user contact point and is made of a temperature-resistant polymer.",
+    image: require("../../images/guns/rifles/tactical/9888_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/9888_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/9888_1.jpg"),
+    
+  },
+  {
+    id: 1317,
+    title:
+      "  BARR 14361 MRAD 300WIN 24IN FB BLK",
+    price: 5004.62,
+    description:
+      " Barrett\'s MRAD adapts to a variety of user needs without sacrificing performance. With unfailing accuracy, this bolt-action system continues to define a whole new class of long-range precision rifles. It features a changeable barrel system that can be removed by simply loosening two bolts using a standard Torx wrench. Besides reducing maintenance and logistical burdens, this unique design allows for user level caliber interchangeability and serviceability with the MRAD rifle\'s barrel kits. The MRAD also features a fully adjustable match-grade trigger module, which is user accessible. The thumb-operated safety can be configured for left or right hand operation and its ambidextrous magazine release can be used intuitively while retaining a firing grip and cheek weld. Its forward receiver is drilled and tapped for accessory rails to be mounted at the 3, 6 and 9 o\'clock positions. The stock is foldable for enhanced portability yet locks in as solid as a fixed-stock rifle, creating a rigid platform for consistent firing. Is adjustable cheek piece also offers a consistent rifle-to-user contact point and is made of a temperature-resistant polymer.",
+    image: require("../../images/guns/rifles/tactical/9887_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/9887_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/9887_1.jpg"),
+    
+  },
+  {
+    id: 1318,
+    title:
+      " BARR 14374 MRAD 338LAP 24IN FB FDE ",
+    price: 5004.62,
+    description:
+      " ",
+    image: require("../../images/guns/rifles/tactical/9885_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/9885_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/9885_1.jpg"),
+    
+  },
+  {
+    id: 1319,
+    title:
+      " BARR 14388 MRAD 338LAP 26IN FB GREY ",
+    price: 304.62,
+    description:
+      " Barrett\'s MRAD adapts to a variety of user needs without sacrificing performance. With unfailing accuracy, this bolt-action system continues to define a whole new class of long-range precision rifles. It features a changeable barrel system that can be removed by simply loosening two bolts using a standard Torx wrench. Besides reducing maintenance and logistical burdens, this unique design allows for user level caliber interchangeability and serviceability with the MRAD rifle\'s barrel kits. The MRAD also features a fully adjustable match-grade trigger module, which is user accessible. The thumb-operated safety can be configured for left or right hand operation and its ambidextrous magazine release can be used intuitively while retaining a firing grip and cheek weld. Its forward receiver is drilled and tapped for accessory rails to be mounted at the 3, 6 and 9 o\'clock positions. The stock is foldable for enhanced portability yet locks in as solid as a fixed-stock rifle, creating a rigid platform for consistent firing. Is adjustable cheek piece also offers a consistent rifle-to-user contact point and is made of a temperature-resistant polymer.",
+    image: require("../../images/guns/rifles/tactical/9882_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/9882_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/9882_1.jpg"),
+    
+  },
+  {
+    id: 1320,
+    title:
+      "  BARR 14386 MRAD 338LAP 24IN FB GREY",
+    price: 5970.62,
+    description:
+      "Barrett\'s MRAD adapts to a variety of user needs without sacrificing performance. With unfailing accuracy, this bolt-action system continues to define a whole new class of long-range precision rifles. It features a changeable barrel system that can be removed by simply loosening two bolts using a standard Torx wrench. Besides reducing maintenance and logistical burdens, this unique design allows for user level caliber interchangeability and serviceability with the MRAD rifle\'s barrel kits. The MRAD also features a fully adjustable match-grade trigger module, which is user accessible. The thumb-operated safety can be configured for left or right hand operation and its ambidextrous magazine release can be used intuitively while retaining a firing grip and cheek weld. Its forward receiver is drilled and tapped for accessory rails to be mounted at the 3, 6 and 9 o\'clock positions. The stock is foldable for enhanced portability yet locks in as solid as a fixed-stock rifle, creating a rigid platform for consistent firing. Is adjustable cheek piece also offers a consistent rifle-to-user contact point and is made of a temperature-resistant polymer. ",
+    image: require("../../images/guns/rifles/tactical/9881_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/9881_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/9881_1.jpg"),
+    
+  },
+  {
+    id: 1321,
+    title:
+      " BARR 14355 MRAD 338LAP 24IN FB BLK ",
+    price: 304.62,
+    description:
+      "Barrett\'s MRAD adapts to a variety of user needs without sacrificing performance. With unfailing accuracy, this bolt-action system continues to define a whole new class of long-range precision rifles. It features a changeable barrel system that can be removed by simply loosening two bolts using a standard Torx wrench. Besides reducing maintenance and logistical burdens, this unique design allows for user level caliber interchangeability and serviceability with the MRAD rifle\'s barrel kits. The MRAD also features a fully adjustable match-grade trigger module, which is user accessible. The thumb-operated safety can be configured for left or right hand operation and its ambidextrous magazine release can be used intuitively while retaining a firing grip and cheek weld. Its forward receiver is drilled and tapped for accessory rails to be mounted at the 3, 6 and 9 o\'clock positions. The stock is foldable for enhanced portability yet locks in as solid as a fixed-stock rifle, creating a rigid platform for consistent firing. Is adjustable cheek piece also offers a consistent rifle-to-user contact point and is made of a temperature-resistant polymer. ",
+    image: require("../../images/guns/rifles/tactical/9880_1.jpg"),
+    imageHover: require("../../images/guns/rifles/tactical/9880_1.jpg"),
+    quickView: require("../../images/guns/rifles/tactical/9880_1.jpg"),
     
   },
 ];
@@ -687,6 +2516,7 @@ export const selfdefense= [
     quickView: require("../../images/guns/shortgun/selfdefense/31048_4.jpg"),
     
   },
+  
  
 ];
 export const products = [

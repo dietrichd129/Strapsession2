@@ -3,6 +3,9 @@ import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
 import Facility from "../components/Common/Facility";
 import Breadcrumb from "../components/Common/Breadcrumb";
+import Head from 'next/head'
+
+import Router from 'next/router'
 
 class Index extends Component {
   constructor(props) {
@@ -13,20 +16,32 @@ class Index extends Component {
     };
   }
   submitForm(data) {
+    console.log("submitted")
+    
     fetch("/api/contact", {
-      method: "post",
+      method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
       },
       body: JSON.stringify(data),
     }).then((res) => {
-      res.status === 200 ? this.setState({ submitted: true }) : "";
+      console.log("Fetch: ", res);
+      res.status === 200
+      ?
+      Router.push("/")
+        : Router.push("/error");
     });
+  
   }
+ 
   render() {
     return (
       <React.Fragment>
+        <Head>
+        <title>STRAPSESSIONS </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
         <Navbar />
         <Breadcrumb title="Contact Us" />
         <section className="contact-area ptb-60">
@@ -55,6 +70,11 @@ class Index extends Component {
                       <i className="far fa-envelope"></i> Email Us:{" "}
                       <a href="#">support@strapsessions.com</a>
                     </li>
+                    <li>
+                    <i className="fa fa-map-marker" ></i>
+                    Address:{" "}
+                   San Diego CA
+                  </li>
                   </ul>
 
                   <h3>Opening Hours:</h3>
@@ -133,23 +153,7 @@ class Index extends Component {
                         </div>
                       </div>
 
-                      <div className="col-lg-12 col-md-12">
-                        <div className="form-group">
-                          <label>
-                            Phone Number <span>(required)*</span>
-                          </label>
-                          <input
-                            type="text"
-                            name="phone_number"
-                            id="phone_number"
-                            className="form-control"
-                            required={true}
-                            data-error="Please enter your phone number"
-                            placeholder="Enter your Phone Number"
-                          />
-                          <div className="help-block with-errors"></div>
-                        </div>
-                      </div>
+                      
 
                       <div className="col-lg-12 col-md-12">
                         <div className="form-group">

@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
+import Head from 'next/head'
 
 
 import BlogHeader from "../../components/BlogHeader";
@@ -41,6 +42,10 @@ const Blog = ({ post, morePosts }) => {
 
   return (
 <div>
+<Head>
+        <title>{post?.fields.title}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
   <Navbar/>
       <BlogHeader
         title={post?.fields.title}
