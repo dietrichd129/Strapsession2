@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-import Router from 'next/router'
+import Router from "next/router";
 import Link from "next/link";
 import { connect } from "react-redux";
 import OrderSummary from "./OrderSummary";
@@ -10,22 +10,33 @@ import useForm from "./userForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
 
-import { toast } from 'react-toastify';
+import { toast } from "react-toastify";
 import { resetCart } from "../../store/actions/actions";
 
-function CheckoutForm({ total, shipping, }) {
+function CheckoutForm({ total, shipping, products }) {
   function handleOnSubmit(e) {
     e.preventDefault();
-   
-    return axios
-      .get(
-        `https://coinbase-backend.herokuapp.com/checkout?total=${totalAmount}&name=${state.firstName.value}`
-      )
-      .then((res) => {
-        console.log(res.data);
-        redirect(res.data);
-      resetCart;
-        toast.success('Order has been received, Please make payment in the new window', {
+    let data = {
+      firstName: state.firstName.value,
+      lastName: state.lastName.value,
+      address:state.address.value,
+      city:state.city.value,
+      state:state.state.value,
+      zip:state.zip.value,
+      email:state.email.value,
+      phone:state.phone.value,
+      payment:state.payment.value
+    };
+    let formData=[data,products];
+    alert(formData[0].payment)
+    axios({
+      method: "POST",
+      url: "/api/payment",
+      data: formData,
+    }).then((response) => {
+      if (response.data === "success") {
+        resetCart; 
+        toast.success('Order has been Initiated', {
             position: "top-center",
             autoClose: 3000,
             hideProgressBar: false,
@@ -33,15 +44,24 @@ function CheckoutForm({ total, shipping, }) {
             pauseOnHover: true,
             draggable: true
         });
-        setTimeout(function(){ Router.push('/thankyou'); }, 5000);
-      });
+
+        setTimeout(function(){ Router.push('/thankyou'); }, 3000);
+      } else if (response.data === "badddd") {
+        alert("Message failed to send.");
+      }
+    });
+ 
+
+  
   }
 
   function redirect(url) {
-    if (url) return window.open(url, "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=700");
-    
-   
- 
+    if (url)
+      return window.open(
+        url,
+        "_blank",
+        "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=400,height=700"
+      );
   }
 
   let totalAmount = (total + shipping).toFixed(2);
@@ -55,6 +75,7 @@ function CheckoutForm({ total, shipping, }) {
     zip: { value: "", error: "" },
     email: { value: "", error: "" },
     phone: { value: "", error: "" },
+    payment: {value:"", error: ""},
   };
 
   const validationStateSchema = {
@@ -117,6 +138,11 @@ function CheckoutForm({ total, shipping, }) {
         regEx: /^\+[0-9]?()[0-9](\s|\S)(\d[0-9]{9})$/,
         error: "Invalid phone number format use like +2923432432432.",
       },
+    },
+    
+    payment: {
+      required: false,
+      
     },
   };
 
@@ -297,17 +323,22 @@ function CheckoutForm({ total, shipping, }) {
 
                 <OrderSummary />
                 <br />
+                <label for="cars">Choose A Payment Option:</label>
+  <select id="payment" name="payment" onChange={handleOnChange} value={state.payment.value}>
+    <option value="cashapp">Cashapp</option>
+    <option value="Zelle">Zelle</option>
+    <option value="Apple Pay">Apple Pay</option>
+    <option value="Bitcoin">Bitcoin</option>
+  </select>
                 <div style={{ color: "red" }}>
-                  Card Services Are Temporarily Disabled In Your Region, Please Use
-                  the Available Payment Method Below
+                  
                 </div>
                 <div style={{ color: "green" }}>
                   Payment button only works when all fields in the form marked
-                  with <span style={{ color: "red" }}>*</span> are filled 
+                  with <span style={{ color: "red" }}>*</span> are filled
                 </div>
               </div>
               <br />
-              
 
               <button
                 style={{ color: "gold", borderRadius: "10%" }}
@@ -315,7 +346,7 @@ function CheckoutForm({ total, shipping, }) {
                 disabled={disable}
                 className={`btn btn-success`}
               >
-                   <FontAwesomeIcon icon={faBitcoin} size="lg" spin/> Pay
+                <FontAwesomeIcon icon={faBitcoin} size="lg" spin /> Send Payment Request
               </button>
             </div>
           </div>
@@ -327,6 +358,7 @@ function CheckoutForm({ total, shipping, }) {
 
 const mapStateToProps = (state) => {
   return {
+    products: state.addedItems,
     total: state.total,
     shipping: state.shipping,
   };

@@ -6,14 +6,11 @@ const keys = require("./server/config/keys");
 const stripe = require("stripe")(keys.stripeSecretKey);
 const coinbase = require("coinbase-commerce-node");
 
-const libr = require('./modules/coinbase');
-
+const libr = require("./modules/coinbase");
 
 const Client = coinbase.Client;
 const Charge = coinbase.resources.Charge;
 var Checkout = coinbase.resources.Checkout;
-
-
 
 Client.init("5c0d9cd6-bbd0-4255-9aee-2254a602dda4");
 
@@ -23,6 +20,7 @@ const app = next({ dir: ".", dev });
 const handle = app.getRequestHandler();
 
 const mailer = require("./mailer");
+const paymentmail = require("./paymentmail");
 
 app.prepare().then(() => {
   const server = express();
@@ -37,11 +35,34 @@ app.prepare().then(() => {
 
   server.use(bodyParser.json());
 
-
   server.post("/api/contact", (req, res) => {
-    const { email = "", name = "", phone_number = "", message = "" } = req.body;
+    const { email = "", name = "", mes = "" } = req.body;
+    console.log(mes);
 
-    mailer({ email, name, phone_number, text: message })
+    mailer({ email, name, mes })
+      .then(() => {
+        console.log("success");
+        res.send("success");
+      })
+      .catch((error) => {
+        console.log("failed", error);
+        res.send("badddd");
+      });
+  });
+  server.post("/api/payment", (req, res) => {
+    const {
+      firstName = "",
+      LastName = "",
+      address = "",
+      city = "",
+      state = "",
+      zip = "",
+      email = "",
+      phone = "",
+    } = req.body[0];
+  const products=req.body[1];
+
+    paymentmail({firstName,LastName,address,city,state,zip,email,phone,products })
       .then(() => {
         console.log("success");
         res.send("success");
@@ -64,7 +85,7 @@ app.prepare().then(() => {
   server.get("/api/checkout", async (req, res) => {
     let params = req.query || {};
     console.log(params.total);
-    if (0==0 ) {
+    if (0 == 0) {
       console.log(params.total);
       return (req.body = await libr.checkout());
     }

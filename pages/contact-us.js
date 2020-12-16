@@ -3,45 +3,60 @@ import Navbar from "../components/Layout/Navbar";
 import Footer from "../components/Layout/Footer";
 import Facility from "../components/Common/Facility";
 import Breadcrumb from "../components/Common/Breadcrumb";
-import Head from 'next/head'
+import Head from "next/head";
+import axios from "axios";
 
-import Router from 'next/router'
+import Router from "next/router";
 
 class Index extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      submitting: false,
-      submitted: false,
+      name: "",
+      email: "",
+      mes: "",
     };
+    this.handleOnChange = this.handleOnChange.bind(this);
+    this.handleOnSubmit = this.handleOnSubmit.bind(this);
   }
-  submitForm(data) {
-    console.log("submitted")
-    
-    fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        Accept: "application/json, text/plain, */*",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    }).then((res) => {
-      console.log("Fetch: ", res);
-      res.status === 200
-      ?
-      Router.push("/")
-        : Router.push("/error");
+
+  handleOnChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value,
+      [e.target.email]: e.target.value,
+      [e.target.mes]: e.target.value,
     });
-  
+  };
+  async handleOnSubmit(e) {
+    e.preventDefault();
+    axios({
+      method: "POST",
+      url: "/api/contact",
+      data: this.state,
+    }).then((response) => {
+      if (response.data === "success") {
+        alert("Message Sent.");
+        this.resetForm();
+      } else if (response.data === "badddd") {
+        alert("Message failed to send.");
+      }
+    });
   }
- 
+
+  resetForm() {
+    this.setState({ name: "", email: "", mes: "" });
+  }
+
   render() {
     return (
       <React.Fragment>
         <Head>
-        <title>STRAPSESSIONS </title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
+          <title>STRAPSESSIONS </title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
         <Navbar />
         <Breadcrumb title="Contact Us" />
         <section className="contact-area ptb-60">
@@ -64,17 +79,16 @@ class Index extends Component {
                   <ul className="contact-list">
                     <li>
                       <i className="fas fa-phone"></i> Call Us/Whatsapp:{" "}
-                      <a href="#">(+161) 932-43574</a>
+                      <a href="#">+1(619) 324-3574</a>
                     </li>
                     <li>
                       <i className="far fa-envelope"></i> Email Us:{" "}
                       <a href="#">support@strapsessions.com</a>
                     </li>
                     <li>
-                    <i className="fa fa-map-marker" ></i>
-                    Address:{" "}
-                   San Diego CA
-                  </li>
+                      <i className="fa fa-map-marker"></i>
+                      Address: San Diego CA
+                    </li>
                   </ul>
 
                   <h3>Opening Hours:</h3>
@@ -110,12 +124,9 @@ class Index extends Component {
                   <form
                     id="contactForm"
                     name="contact"
-                    onSubmit={(e) => {
-                      e.preventDefault();
-                      this.submitForm();
-                    }}
+                    onSubmit={this.handleOnSubmit}
                   >
-                    <input type="hidden" name="form-name" value="contact" />
+                    <input type="hidden" name="form-name" value={this.state.name} />
                     <div className="row">
                       <div className="col-lg-12 col-md-12">
                         <div className="form-group">
@@ -130,6 +141,8 @@ class Index extends Component {
                             required={true}
                             data-error="Please enter your name"
                             placeholder="Enter your name"
+                            value={this.state.name}
+                onChange={this.handleOnChange.bind(this)}
                           />
                           <div className="help-block with-errors"></div>
                         </div>
@@ -146,6 +159,9 @@ class Index extends Component {
                             id="email"
                             className="form-control"
                             required={true}
+                            value={this.state.email}
+                onChange={this.handleOnChange.bind(this)}
+                required
                             data-error="Please enter your email"
                             placeholder="Enter your Email Address"
                           />
@@ -153,18 +169,18 @@ class Index extends Component {
                         </div>
                       </div>
 
-                      
-
                       <div className="col-lg-12 col-md-12">
                         <div className="form-group">
                           <label>
                             Your Message <span>(required)*</span>
                           </label>
                           <textarea
-                            name="message"
-                            id="message"
+                            name="mes"
+                            id="mes"
                             cols="30"
                             rows="8"
+                            value={this.state.mes}
+                            onChange={this.handleOnChange.bind(this)}
                             required={true}
                             data-error="Please enter your message"
                             className="form-control"

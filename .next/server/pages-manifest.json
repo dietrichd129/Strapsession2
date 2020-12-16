@@ -2,10 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/404": "pages/404.js",
-  "/handgun-ammunition": "pages/handgun-ammunition.js",
-  "/rim": "pages/rim.js",
-  "/rifle-ammunition": "pages/rifle-ammunition.js",
-  "/": "pages/index.js",
-  "/self-defense-shotguns": "pages/self-defense-shotguns.js"
+  "/handgun-sight": "pages/handgun-sight.js",
+  "/ars": "pages/ars.js"
 }
