@@ -346,7 +346,7 @@ function CheckoutForm({ total, shipping, products }) {
                 disabled={disable}
                 className={`btn btn-success`}
               >
-                <FontAwesomeIcon icon={faBitcoin} size="lg" spin /> Send Payment Request
+                Send Payment Request
               </button>
             </div>
           </div>

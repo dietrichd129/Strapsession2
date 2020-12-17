@@ -457,7 +457,7 @@ class LeftFilter extends Component {
                                         <div className="products-image">
                                             <Link href="#">
                                                 <a>
-                                                    <img src={require("../../images/img2.jpg")} alt="image" />
+                                                    
                                                 </a>
                                             </Link>
                                         </div>
@@ -485,7 +485,7 @@ class LeftFilter extends Component {
                                         <div className="products-image">
                                             <Link href="#">
                                                 <a>
-                                                    <img src={require("../../images/img3.jpg")} alt="image" />
+                                                    
                                                 </a>
                                             </Link>
                                         </div>
@@ -513,7 +513,7 @@ class LeftFilter extends Component {
                                         <div className="products-image">
                                             <Link href="#">
                                                 <a>
-                                                    <img src={require("../../images/img4.jpg")} alt="image" />
+                                                   
                                                 </a>
                                             </Link>
                                         </div>
@@ -540,8 +540,7 @@ class LeftFilter extends Component {
 
                                 <div className="collapse-widget aside-trending-widget">
                                     <div className="aside-trending-products">
-                                        <img src={require("../../images/bestseller-hover-img1.jpg")} alt="image" />
-
+                                        
                                         <div className="category">
                                             <h4>Top Trending</h4>
                                             <span>Spring/Summer 2018 Collection</span>

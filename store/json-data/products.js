@@ -3609,9 +3609,9 @@ export const semiAuth = [
         price: 700,
         description:
           "Known as the “BABY GLOCK,” the GLOCK 26 in 9x19mm has been the most sought-after concealed carry option since its release in 1994-a market once dominated by the 5-round snubnose revolver. The magazine capacity of 10 rounds is standard, and the highly accurate firing characteristics explain why the G26 is the mainstay backup option among security personnel and agencies worldwide.",
-        image: require("../../images/guns/glocks/26.webp"),
-        imageHover: require("../../images/guns/glocks/26.webp"),
-        quickView: require("../../images/guns/glocks/26.webp"),
+        image: require("../../images/guns/glocks/26.png"),
+        imageHover: require("../../images/guns/glocks/26.png"),
+        quickView: require("../../images/guns/glocks/26.png"),
       },
       {
         id: 1004,
@@ -3680,7 +3680,7 @@ export const semiAuth = [
         quickView: require("../../images/guns/glocks/48.jpg"),
       },
       {
-        id: 4000,
+        id: 2500,
         title:
           "GLOCK 19X ",
         price:1250.00,
