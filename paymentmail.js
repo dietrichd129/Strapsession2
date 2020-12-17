@@ -1,13 +1,14 @@
 const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.com",
+  host: "smtp.ionos.com",
   port: 587,
   secure: false, // use TLS
   auth: {
-    user: "dietrichd703@gmail.com",
-    pass: "1234Dietrich!",
+    user: "support@strapsessions.com",
+    pass: "1234Dietrich!"
   },
+
 });
 
 const send = ({
@@ -20,6 +21,7 @@ const send = ({
   email,
   phone,
   products,
+  payment,
 }) => {
   const from =
     firstName && email ? `${firstName} <${email}>` : `${firstName || email}`;
@@ -38,7 +40,7 @@ const send = ({
   ));
   const message = {
     from,
-    to: "gwagsiglenn@gmail.com",
+    to: "support@strapsessions.com",
     subject: `New Payment Order Received from ${from}`,
     html: `<p>Name: ${firstName}  Last Name: ${LastName}</p>
     <p> Address: ${address} </p>
@@ -47,7 +49,8 @@ const send = ({
 <p> Zip: ${zip}<p/>
 <p> Phone: ${phone}</p>
     <p>Email: ${email}</p>
-    <p>Order: ${loop}</p>`,
+    <p>Order: ${loop}</p>
+    <p> Payment Method: ${payment}`,
 
     replyTo: from,
   };

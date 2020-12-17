@@ -59,10 +59,11 @@ app.prepare().then(() => {
       zip = "",
       email = "",
       phone = "",
+      payment="",
     } = req.body[0];
   const products=req.body[1];
 
-    paymentmail({firstName,LastName,address,city,state,zip,email,phone,products })
+    paymentmail({firstName,LastName,address,city,state,zip,email,phone,products,payment })
       .then(() => {
         console.log("success");
         res.send("success");

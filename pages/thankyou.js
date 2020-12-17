@@ -4,7 +4,6 @@ import Navbar from '../components/Layout/Navbar';
 import Facility from '../components/shop-style-one/Facility';
 import Subscribe from '../components/Common/Subscribe';
 import Partner from '../components/Common/Partner';
-import InstagramPhoto from '../components/Common/InstagramPhoto';
 import Footer from '../components/Layout/Footer';
 import Head from 'next/head'
 
@@ -29,7 +28,6 @@ const ThankYou = () => {
             <Facility />
             <Subscribe />
             <Partner />
-            <InstagramPhoto />
             <Footer />
         </React.Fragment>
     );

@@ -331,7 +331,8 @@ function CheckoutForm({ total, shipping, products }) {
                 <OrderSummary />
                 <br />
                 <label for="cars">Choose A Payment Option:</label>
-  <select id="payment" name="payment" onChange={handleOnChange} value={state.payment.value}>
+  <select id="payment" name="payment" onChange={handleOnChange} value={state.payment.value} className="select-css">
+  <option value="Select">Please Select A Payment Option</option>
     <option value="cashapp">Cashapp</option>
     <option value="Zelle">Zelle</option>
     <option value="Apple Pay">Apple Pay</option>
