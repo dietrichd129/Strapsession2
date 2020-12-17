@@ -3686,9 +3686,9 @@ export const semiAuth = [
         price:1250.00,
         description:
           "GLOCK's first ever `Crossover` pistol, the GLOCK 19X, combines the best features of two of its most popular and most trusted field-tested platforms. The full-size GLOCK 17 frame and the compact GLOCK 19 slide have joined forces to produce the ideal pistol for all conditions and all situations. The 19X comes in the coyote color with the first-ever factory colored slide, finished with an improved nPVD slide coating to prevent corrosion. Additional features include the GLOCK Marksman Barrel (GMB), no finger grooves, ambidextrous slide stop levers and lanyard loop. Included with the pistol is a standard 17-round magazine, two 17+2-round magazines and coyote-colored pistol case.",
-        image: require("../../images/guns/glocks/G19X_GNS-LG.jpg"),
-        imageHover: require("../../images/guns/glockS/G19X_GNS-LG.jpg"),
-        quickView: require("../../images/guns/glocks/G19X_GNS-LG.jpg"),
+        image: require("../../images/guns/glocks/19x.jpg"),
+        imageHover: require("../../images/guns/glocks/19x.jpg"),
+        quickView: require("../../images/guns/glocks/19x.jpg"),
       }
       ];
 
