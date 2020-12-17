@@ -62,7 +62,10 @@ class MegaMenuTwo extends Component {
               <nav className="navbar navbar-expand-md navbar-light">
                 <Link href="/">
                   <a className="navbar-brand">
-                    STRAPSESSIONS
+                    <img
+                      src={require("../../images/white-logo.png")}
+                      alt="logo"
+                    />
                   </a>
                 </Link>
 
