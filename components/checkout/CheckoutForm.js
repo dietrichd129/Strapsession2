@@ -47,7 +47,14 @@ function CheckoutForm({ total, shipping, products }) {
 
         setTimeout(function(){ Router.push('/thankyou'); }, 3000);
       } else if (response.data === "badddd") {
-        alert("Message failed to send.");
+       toast.success('An Error Occurred Please Retry', {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true
+      });
       }
     });
  
