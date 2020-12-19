@@ -8,6 +8,9 @@ import axios from "axios";
 
 import Router from "next/router";
 
+import { toast } from "react-toastify";
+
+
 class Index extends Component {
   constructor(props) {
     super(props);
@@ -35,10 +38,26 @@ class Index extends Component {
       data: this.state,
     }).then((response) => {
       if (response.data === "success") {
-        alert("Message Sent.");
+        toast.success('Message Has Been Sent Successfully', {
+          position: "top-center",
+          autoClose: 4000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true
+      });
         this.resetForm();
+        
+        setTimeout(function(){ Router.push('/'); }, 4000);
       } else if (response.data === "badddd") {
-        alert("Message failed to send.");
+        toast.success('Message did not deliver: Please Check if you entered a valid email', {
+          position: "top-center",
+          autoClose: 4000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true
+      });
       }
     });
   }
@@ -79,7 +98,7 @@ class Index extends Component {
                   <ul className="contact-list">
                     <li>
                       <i className="fas fa-phone"></i> Call Us/Whatsapp:{" "}
-                      <a href="#">+1(619) 324-3574</a>
+                      <a href="https://api.whatsapp.com/send?phone=16193243574">+1(619) 324-3574</a>
                     </li>
                     <li>
                       <i className="far fa-envelope"></i> Email Us:{" "}

@@ -78,7 +78,7 @@ class Footer extends Component {
                   <li>
                     <i className="fas fa-phone"></i>
                     Call Us/Whatsapp:{" "}
-                    <a href="tel:(+161) 932-43574">+1(619) 324-3574</a>
+                    <a href="https://api.whatsapp.com/send?phone=16193243574">+1(619) 324-3574</a>
                   </li>
                   <li>
                     <i className="far fa-envelope"></i>

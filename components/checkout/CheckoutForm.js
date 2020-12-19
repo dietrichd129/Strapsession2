@@ -19,47 +19,62 @@ function CheckoutForm({ total, shipping, products }) {
     let data = {
       firstName: state.firstName.value,
       lastName: state.lastName.value,
-      address:state.address.value,
-      city:state.city.value,
-      state:state.state.value,
-      zip:state.zip.value,
-      email:state.email.value,
-      phone:state.phone.value,
-      payment:state.payment.value
+      address: state.address.value,
+      city: state.city.value,
+      state: state.state.value,
+      zip: state.zip.value,
+      email: state.email.value,
+      phone: state.phone.value,
+      payment: state.payment.value,
     };
-    let formData=[data,products];
-    alert(formData[0].payment)
-    axios({
-      method: "POST",
-      url: "/api/payment",
-      data: formData,
-    }).then((response) => {
-      if (response.data === "success") {
-        resetCart; 
-        toast.success('Order has been Initiated', {
+    let formData = [data, products];
+    if (payment==""){
+      toast.success("Please Select A Payment Method", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+      });
+      
+    }
+    else{
+      axios({
+        method: "POST",
+        url: "/api/payment",
+        data: formData,
+      }).then((response) => {
+        if (response.data === "success") {
+          toast.success("Order has been Initiated", {
             position: "top-center",
-            autoClose: 3000,
+            autoClose: 4000,
             hideProgressBar: false,
             closeOnClick: true,
             pauseOnHover: true,
-            draggable: true
-        });
-
-        setTimeout(function(){ Router.push('/thankyou'); }, 3000);
-      } else if (response.data === "badddd") {
-       toast.success('An Error Occurred Please Retry', {
-          position: "top-center",
-          autoClose: 3000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true
-      });
-      }
-    });
- 
-
+            draggable: true,
+          });
+          resetCart();
   
+          setTimeout(function () {
+            Router.push("/thankyou");
+          }, 4000);
+        } else if (response.data === "badddd") {
+          toast.success(
+            "An Error Occurred Please Retry: Did you use a valid email?",
+            {
+              position: "top-center",
+              autoClose: 4000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+            }
+          );
+        }
+      });
+    };
+    
   }
 
   function redirect(url) {
@@ -82,7 +97,7 @@ function CheckoutForm({ total, shipping, products }) {
     zip: { value: "", error: "" },
     email: { value: "", error: "" },
     phone: { value: "", error: "" },
-    payment: {value:"", error: ""},
+    payment: { value: "", error: "" },
   };
 
   const validationStateSchema = {
@@ -146,10 +161,9 @@ function CheckoutForm({ total, shipping, products }) {
         error: "Invalid phone number format use like +2923432432432.",
       },
     },
-    
+
     payment: {
       required: false,
-      
     },
   };
 
@@ -331,16 +345,20 @@ function CheckoutForm({ total, shipping, products }) {
                 <OrderSummary />
                 <br />
                 <label for="cars">Choose A Payment Option:</label>
-  <select id="payment" name="payment" onChange={handleOnChange} value={state.payment.value} className="select-css">
-  <option value="Select">Please Select A Payment Option</option>
-    <option value="cashapp">Cashapp</option>
-    <option value="Zelle">Zelle</option>
-    <option value="Apple Pay">Apple Pay</option>
-    <option value="Bitcoin">Bitcoin</option>
-  </select>
-                <div style={{ color: "red" }}>
-                  
-                </div>
+                <select
+                  id="payment"
+                  name="payment"
+                  onChange={handleOnChange}
+                  value={state.payment.value}
+                  className="select-css"
+                >
+                  <option value="Select">Please Select A Payment Option</option>
+                  <option value="cashapp">Cashapp </option>
+                  <option value="Zelle">Zelle</option>
+                  <option value="Apple Pay">Apple Pay</option>
+                  <option value="Bitcoin">Bitcoin</option>
+                </select>
+                <div style={{ color: "red" }}></div>
                 <div style={{ color: "green" }}>
                   Payment button only works when all fields in the form marked
                   with <span style={{ color: "red" }}>*</span> are filled
