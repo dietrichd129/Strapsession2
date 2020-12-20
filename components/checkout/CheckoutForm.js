@@ -42,7 +42,7 @@ function CheckoutForm({ total, shipping, products }) {
     else{
       axios({
         method: "POST",
-        url: "/api/payment",
+        url: "https://send-email-strapsessions.herokuapp.com/api/payment",
         data: formData,
       }).then((response) => {
         if (response.data === "success") {
