@@ -157,7 +157,7 @@ function CheckoutForm({ total, shipping, products }) {
     phone: {
       required: true,
       validator: {
-        regEx: /^\+[0-9]?()[0-9](\s|\S)(\d[0-9]{9})$/,
+        regEx: /^.{7,50}$/,
         error: "Invalid phone number format use like +2923432432432.",
       },
     },
