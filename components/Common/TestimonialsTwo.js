@@ -36,13 +36,13 @@ class TestimonialsTwo extends Component {
                     >
                         <div className="single-testimonials">
                             <div className="client-image">
-                                <img src={require("../../images/client1.jpg")} alt="image" />
+                                <img src={require("https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?crop=entropy&cs=srgb&dl=pexels-justin-shaifer-1222271.jpg&fit=crop&fm=jpg&h=426&w=640")} alt="image" />
                             </div>
 
                             <p>One of the great things about Strapsessions is that they not only have a huge selection of firearms, they also have tons of gun parts for those who want to customize their guns</p>
 
                             <div className="client-info">
-                                <h4>Jason Statham</h4>
+                                <h4>Jason Black</h4>
                                 <span>jason231@gmail.com</span>
                             </div>
                         </div>
